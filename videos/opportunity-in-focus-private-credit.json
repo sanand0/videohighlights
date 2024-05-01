@@ -1,0 +1,3322 @@
+{
+    "segments": [
+        {
+            "id": 1,
+            "seek": 2846,
+            "start": 4.86,
+            "end": 7.02,
+            "text": " Let's talk about alternative credit.",
+            "tokens": [
+                50364,
+                961,
+                311,
+                751,
+                466,
+                8535,
+                5397,
+                13,
+                50778
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 4.86,
+                    "end": 5.3,
+                    "word": " Let's",
+                    "probability": 0.59503173828125
+                },
+                {
+                    "start": 5.3,
+                    "end": 5.52,
+                    "word": " talk",
+                    "probability": 0.994140625
+                },
+                {
+                    "start": 5.52,
+                    "end": 5.9,
+                    "word": " about",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 5.9,
+                    "end": 6.56,
+                    "word": " alternative",
+                    "probability": 0.92138671875
+                },
+                {
+                    "start": 6.56,
+                    "end": 7.02,
+                    "word": " credit.",
+                    "probability": 0.9970703125
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 2846,
+            "start": 8.06,
+            "end": 12.0,
+            "text": " Banks continue to pull back from traditional lending for a variety of reasons.",
+            "tokens": [
+                50778,
+                33081,
+                2354,
+                281,
+                2235,
+                646,
+                490,
+                5164,
+                29823,
+                337,
+                257,
+                5673,
+                295,
+                4112,
+                13,
+                50971
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 8.06,
+                    "end": 8.3,
+                    "word": " Banks",
+                    "probability": 0.36767578125
+                },
+                {
+                    "start": 8.3,
+                    "end": 8.68,
+                    "word": " continue",
+                    "probability": 0.97900390625
+                },
+                {
+                    "start": 8.68,
+                    "end": 8.9,
+                    "word": " to",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 8.9,
+                    "end": 9.08,
+                    "word": " pull",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 9.08,
+                    "end": 9.5,
+                    "word": " back",
+                    "probability": 0.9931640625
+                },
+                {
+                    "start": 9.5,
+                    "end": 9.96,
+                    "word": " from",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 9.96,
+                    "end": 10.44,
+                    "word": " traditional",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 10.44,
+                    "end": 10.8,
+                    "word": " lending",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 10.8,
+                    "end": 11.12,
+                    "word": " for",
+                    "probability": 0.9775390625
+                },
+                {
+                    "start": 11.12,
+                    "end": 11.22,
+                    "word": " a",
+                    "probability": 0.99169921875
+                },
+                {
+                    "start": 11.22,
+                    "end": 11.58,
+                    "word": " variety",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 11.58,
+                    "end": 11.8,
+                    "word": " of",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 11.8,
+                    "end": 12.0,
+                    "word": " reasons.",
+                    "probability": 0.9736328125
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 2846,
+            "start": 12.08,
+            "end": 15.26,
+            "text": " Just where we're at right now, do we view that as a risk or an opportunity?",
+            "tokens": [
+                50971,
+                1449,
+                689,
+                321,
+                434,
+                412,
+                558,
+                586,
+                11,
+                360,
+                321,
+                1910,
+                300,
+                382,
+                257,
+                3148,
+                420,
+                364,
+                2650,
+                30,
+                51132
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 12.08,
+                    "end": 12.26,
+                    "word": " Just",
+                    "probability": 0.83056640625
+                },
+                {
+                    "start": 12.26,
+                    "end": 12.44,
+                    "word": " where",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 12.44,
+                    "end": 12.62,
+                    "word": " we're",
+                    "probability": 0.98876953125
+                },
+                {
+                    "start": 12.62,
+                    "end": 12.78,
+                    "word": " at",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 12.78,
+                    "end": 13.02,
+                    "word": " right",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 13.02,
+                    "end": 13.3,
+                    "word": " now,",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 13.32,
+                    "end": 13.46,
+                    "word": " do",
+                    "probability": 0.9892578125
+                },
+                {
+                    "start": 13.46,
+                    "end": 13.6,
+                    "word": " we",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 13.6,
+                    "end": 13.7,
+                    "word": " view",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 13.7,
+                    "end": 13.86,
+                    "word": " that",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 13.86,
+                    "end": 14.02,
+                    "word": " as",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 14.02,
+                    "end": 14.24,
+                    "word": " a",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 14.24,
+                    "end": 14.48,
+                    "word": " risk",
+                    "probability": 1.0
+                },
+                {
+                    "start": 14.48,
+                    "end": 14.62,
+                    "word": " or",
+                    "probability": 0.98486328125
+                },
+                {
+                    "start": 14.62,
+                    "end": 14.82,
+                    "word": " an",
+                    "probability": 0.99169921875
+                },
+                {
+                    "start": 14.82,
+                    "end": 15.26,
+                    "word": " opportunity?",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 2846,
+            "start": 16.12,
+            "end": 17.1,
+            "text": " Well, it's a little bit of both.",
+            "tokens": [
+                51132,
+                1042,
+                11,
+                309,
+                311,
+                257,
+                707,
+                857,
+                295,
+                1293,
+                13,
+                51228
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 16.12,
+                    "end": 16.18,
+                    "word": " Well,",
+                    "probability": 0.24755859375
+                },
+                {
+                    "start": 16.22,
+                    "end": 16.4,
+                    "word": " it's",
+                    "probability": 0.757568359375
+                },
+                {
+                    "start": 16.4,
+                    "end": 16.42,
+                    "word": " a",
+                    "probability": 0.9931640625
+                },
+                {
+                    "start": 16.42,
+                    "end": 16.72,
+                    "word": " little",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 16.72,
+                    "end": 16.84,
+                    "word": " bit",
+                    "probability": 0.990234375
+                },
+                {
+                    "start": 16.84,
+                    "end": 16.98,
+                    "word": " of",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 16.98,
+                    "end": 17.1,
+                    "word": " both.",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 2846,
+            "start": 17.2,
+            "end": 21.9,
+            "text": " There were some aggressive trends and themes from an underwriting perspective in this",
+            "tokens": [
+                51228,
+                821,
+                645,
+                512,
+                10762,
+                13892,
+                293,
+                13544,
+                490,
+                364,
+                833,
+                19868,
+                4585,
+                294,
+                341,
+                51448
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 17.2,
+                    "end": 17.38,
+                    "word": " There",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 17.38,
+                    "end": 17.6,
+                    "word": " were",
+                    "probability": 0.95947265625
+                },
+                {
+                    "start": 17.6,
+                    "end": 17.96,
+                    "word": " some",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 17.96,
+                    "end": 18.86,
+                    "word": " aggressive",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 18.86,
+                    "end": 19.54,
+                    "word": " trends",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 19.54,
+                    "end": 19.84,
+                    "word": " and",
+                    "probability": 0.98828125
+                },
+                {
+                    "start": 19.84,
+                    "end": 20.06,
+                    "word": " themes",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 20.06,
+                    "end": 20.28,
+                    "word": " from",
+                    "probability": 0.95703125
+                },
+                {
+                    "start": 20.28,
+                    "end": 20.42,
+                    "word": " an",
+                    "probability": 0.9873046875
+                },
+                {
+                    "start": 20.42,
+                    "end": 20.68,
+                    "word": " underwriting",
+                    "probability": 0.989013671875
+                },
+                {
+                    "start": 20.68,
+                    "end": 21.3,
+                    "word": " perspective",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 21.3,
+                    "end": 21.64,
+                    "word": " in",
+                    "probability": 0.98486328125
+                },
+                {
+                    "start": 21.64,
+                    "end": 21.9,
+                    "word": " this",
+                    "probability": 0.9990234375
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 2846,
+            "start": 21.9,
+            "end": 26.42,
+            "text": " market coming out of the COVID period, and that's true both of private real estate markets",
+            "tokens": [
+                51448,
+                2142,
+                1348,
+                484,
+                295,
+                264,
+                4566,
+                2896,
+                11,
+                293,
+                300,
+                311,
+                2074,
+                1293,
+                295,
+                4551,
+                957,
+                9749,
+                8383,
+                51684
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 21.9,
+                    "end": 22.4,
+                    "word": " market",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 22.4,
+                    "end": 22.84,
+                    "word": " coming",
+                    "probability": 0.8876953125
+                },
+                {
+                    "start": 22.84,
+                    "end": 22.96,
+                    "word": " out",
+                    "probability": 0.76806640625
+                },
+                {
+                    "start": 22.96,
+                    "end": 23.06,
+                    "word": " of",
+                    "probability": 0.98974609375
+                },
+                {
+                    "start": 23.06,
+                    "end": 23.16,
+                    "word": " the",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 23.16,
+                    "end": 23.4,
+                    "word": " COVID",
+                    "probability": 0.76416015625
+                },
+                {
+                    "start": 23.4,
+                    "end": 23.9,
+                    "word": " period,",
+                    "probability": 0.98486328125
+                },
+                {
+                    "start": 24.08,
+                    "end": 24.3,
+                    "word": " and",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 24.3,
+                    "end": 24.6,
+                    "word": " that's",
+                    "probability": 0.999267578125
+                },
+                {
+                    "start": 24.6,
+                    "end": 24.74,
+                    "word": " true",
+                    "probability": 0.99365234375
+                },
+                {
+                    "start": 24.74,
+                    "end": 24.98,
+                    "word": " both",
+                    "probability": 0.78662109375
+                },
+                {
+                    "start": 24.98,
+                    "end": 25.36,
+                    "word": " of",
+                    "probability": 0.744140625
+                },
+                {
+                    "start": 25.36,
+                    "end": 25.56,
+                    "word": " private",
+                    "probability": 0.9482421875
+                },
+                {
+                    "start": 25.56,
+                    "end": 25.84,
+                    "word": " real",
+                    "probability": 0.986328125
+                },
+                {
+                    "start": 25.84,
+                    "end": 26.06,
+                    "word": " estate",
+                    "probability": 0.994140625
+                },
+                {
+                    "start": 26.06,
+                    "end": 26.42,
+                    "word": " markets",
+                    "probability": 0.9970703125
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 2846,
+            "start": 26.42,
+            "end": 28.46,
+            "text": " as well as the private corporate credit markets.",
+            "tokens": [
+                51684,
+                382,
+                731,
+                382,
+                264,
+                4551,
+                10896,
+                5397,
+                8383,
+                13,
+                51814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1600467267437516,
+            "compression_ratio": 1.5957446808510638,
+            "no_speech_prob": 0.34228515625,
+            "words": [
+                {
+                    "start": 26.42,
+                    "end": 26.64,
+                    "word": " as",
+                    "probability": 0.78076171875
+                },
+                {
+                    "start": 26.64,
+                    "end": 26.78,
+                    "word": " well",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 26.78,
+                    "end": 26.92,
+                    "word": " as",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 26.92,
+                    "end": 27.08,
+                    "word": " the",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 27.08,
+                    "end": 27.3,
+                    "word": " private",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 27.3,
+                    "end": 27.64,
+                    "word": " corporate",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 27.64,
+                    "end": 27.86,
+                    "word": " credit",
+                    "probability": 0.99365234375
+                },
+                {
+                    "start": 27.86,
+                    "end": 28.46,
+                    "word": " markets.",
+                    "probability": 0.9951171875
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 5358,
+            "start": 28.78,
+            "end": 32.92,
+            "text": " So again, how many challenges there will be will depend on what the economy ultimately",
+            "tokens": [
+                50390,
+                407,
+                797,
+                11,
+                577,
+                867,
+                4759,
+                456,
+                486,
+                312,
+                486,
+                5672,
+                322,
+                437,
+                264,
+                5010,
+                6284,
+                50582
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 28.78,
+                    "end": 29.04,
+                    "word": " So",
+                    "probability": 0.65576171875
+                },
+                {
+                    "start": 29.04,
+                    "end": 29.26,
+                    "word": " again,",
+                    "probability": 0.8720703125
+                },
+                {
+                    "start": 29.32,
+                    "end": 29.44,
+                    "word": " how",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 29.44,
+                    "end": 29.64,
+                    "word": " many",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 29.64,
+                    "end": 30.08,
+                    "word": " challenges",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 30.08,
+                    "end": 30.32,
+                    "word": " there",
+                    "probability": 0.95849609375
+                },
+                {
+                    "start": 30.32,
+                    "end": 30.5,
+                    "word": " will",
+                    "probability": 0.9443359375
+                },
+                {
+                    "start": 30.5,
+                    "end": 30.72,
+                    "word": " be",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 30.72,
+                    "end": 31.0,
+                    "word": " will",
+                    "probability": 0.90380859375
+                },
+                {
+                    "start": 31.0,
+                    "end": 31.22,
+                    "word": " depend",
+                    "probability": 0.95654296875
+                },
+                {
+                    "start": 31.22,
+                    "end": 31.38,
+                    "word": " on",
+                    "probability": 0.97021484375
+                },
+                {
+                    "start": 31.38,
+                    "end": 31.66,
+                    "word": " what",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 31.66,
+                    "end": 31.9,
+                    "word": " the",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 31.9,
+                    "end": 32.16,
+                    "word": " economy",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 32.16,
+                    "end": 32.92,
+                    "word": " ultimately",
+                    "probability": 0.93017578125
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 5358,
+            "start": 32.92,
+            "end": 37.46,
+            "text": " does, but there has been significant credit deterioration in segments of that market,",
+            "tokens": [
+                50582,
+                775,
+                11,
+                457,
+                456,
+                575,
+                668,
+                4776,
+                5397,
+                26431,
+                399,
+                294,
+                19904,
+                295,
+                300,
+                2142,
+                11,
+                50832
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 32.92,
+                    "end": 33.42,
+                    "word": " does,",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 33.84,
+                    "end": 33.96,
+                    "word": " but",
+                    "probability": 0.9853515625
+                },
+                {
+                    "start": 33.96,
+                    "end": 34.18,
+                    "word": " there",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 34.18,
+                    "end": 34.48,
+                    "word": " has",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 34.48,
+                    "end": 34.74,
+                    "word": " been",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 34.74,
+                    "end": 35.16,
+                    "word": " significant",
+                    "probability": 0.98876953125
+                },
+                {
+                    "start": 35.16,
+                    "end": 35.44,
+                    "word": " credit",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 35.44,
+                    "end": 36.18,
+                    "word": " deterioration",
+                    "probability": 0.997314453125
+                },
+                {
+                    "start": 36.18,
+                    "end": 36.4,
+                    "word": " in",
+                    "probability": 0.90966796875
+                },
+                {
+                    "start": 36.4,
+                    "end": 36.64,
+                    "word": " segments",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 36.64,
+                    "end": 36.86,
+                    "word": " of",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 36.86,
+                    "end": 37.02,
+                    "word": " that",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 37.02,
+                    "end": 37.46,
+                    "word": " market,",
+                    "probability": 0.9990234375
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "seek": 5358,
+            "start": 37.7,
+            "end": 42.36,
+            "text": " which will create tremendous opportunity for new capital, but also lead to some disappointment",
+            "tokens": [
+                50832,
+                597,
+                486,
+                1884,
+                10048,
+                2650,
+                337,
+                777,
+                4238,
+                11,
+                457,
+                611,
+                1477,
+                281,
+                512,
+                28175,
+                51061
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 37.7,
+                    "end": 37.94,
+                    "word": " which",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 37.94,
+                    "end": 38.18,
+                    "word": " will",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 38.18,
+                    "end": 38.42,
+                    "word": " create",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 38.42,
+                    "end": 38.8,
+                    "word": " tremendous",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 38.8,
+                    "end": 39.26,
+                    "word": " opportunity",
+                    "probability": 0.9853515625
+                },
+                {
+                    "start": 39.26,
+                    "end": 39.46,
+                    "word": " for",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 39.46,
+                    "end": 39.64,
+                    "word": " new",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 39.64,
+                    "end": 40.12,
+                    "word": " capital,",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 40.38,
+                    "end": 40.74,
+                    "word": " but",
+                    "probability": 0.98974609375
+                },
+                {
+                    "start": 40.74,
+                    "end": 40.98,
+                    "word": " also",
+                    "probability": 0.9912109375
+                },
+                {
+                    "start": 40.98,
+                    "end": 41.14,
+                    "word": " lead",
+                    "probability": 0.98779296875
+                },
+                {
+                    "start": 41.14,
+                    "end": 41.36,
+                    "word": " to",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 41.36,
+                    "end": 41.7,
+                    "word": " some",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 41.7,
+                    "end": 42.36,
+                    "word": " disappointment",
+                    "probability": 0.9990234375
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "seek": 5358,
+            "start": 42.36,
+            "end": 44.5,
+            "text": " across some of those legacy strategies.",
+            "tokens": [
+                51061,
+                2108,
+                512,
+                295,
+                729,
+                11711,
+                9029,
+                13,
+                51162
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 42.36,
+                    "end": 42.98,
+                    "word": " across",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 42.98,
+                    "end": 43.26,
+                    "word": " some",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 43.26,
+                    "end": 43.36,
+                    "word": " of",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 43.36,
+                    "end": 43.52,
+                    "word": " those",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 43.52,
+                    "end": 43.88,
+                    "word": " legacy",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 43.88,
+                    "end": 44.5,
+                    "word": " strategies.",
+                    "probability": 0.9990234375
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "seek": 5358,
+            "start": 45.04,
+            "end": 49.56,
+            "text": " From a vintage perspective, given that banks have stepped back, given that there is this",
+            "tokens": [
+                51162,
+                3358,
+                257,
+                23050,
+                4585,
+                11,
+                2212,
+                300,
+                10237,
+                362,
+                15251,
+                646,
+                11,
+                2212,
+                300,
+                456,
+                307,
+                341,
+                51410
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 45.04,
+                    "end": 45.22,
+                    "word": " From",
+                    "probability": 0.9716796875
+                },
+                {
+                    "start": 45.22,
+                    "end": 45.4,
+                    "word": " a",
+                    "probability": 0.974609375
+                },
+                {
+                    "start": 45.4,
+                    "end": 45.7,
+                    "word": " vintage",
+                    "probability": 0.990234375
+                },
+                {
+                    "start": 45.7,
+                    "end": 46.34,
+                    "word": " perspective,",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 46.54,
+                    "end": 46.62,
+                    "word": " given",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 46.62,
+                    "end": 46.88,
+                    "word": " that",
+                    "probability": 0.8828125
+                },
+                {
+                    "start": 46.88,
+                    "end": 47.04,
+                    "word": " banks",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 47.04,
+                    "end": 47.32,
+                    "word": " have",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 47.32,
+                    "end": 47.5,
+                    "word": " stepped",
+                    "probability": 0.9873046875
+                },
+                {
+                    "start": 47.5,
+                    "end": 48.42,
+                    "word": " back,",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 48.42,
+                    "end": 48.74,
+                    "word": " given",
+                    "probability": 0.98291015625
+                },
+                {
+                    "start": 48.74,
+                    "end": 48.94,
+                    "word": " that",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 48.94,
+                    "end": 49.08,
+                    "word": " there",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 49.08,
+                    "end": 49.36,
+                    "word": " is",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 49.36,
+                    "end": 49.56,
+                    "word": " this",
+                    "probability": 0.98828125
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "seek": 5358,
+            "start": 49.56,
+            "end": 53.58,
+            "text": " significant opportunity to provide new capital to more challenged capital structures within",
+            "tokens": [
+                51410,
+                4776,
+                2650,
+                281,
+                2893,
+                777,
+                4238,
+                281,
+                544,
+                17737,
+                4238,
+                9227,
+                1951,
+                51616
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.14143040745528704,
+            "compression_ratio": 1.7745454545454546,
+            "no_speech_prob": 0.1820068359375,
+            "words": [
+                {
+                    "start": 49.56,
+                    "end": 49.96,
+                    "word": " significant",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 49.96,
+                    "end": 50.52,
+                    "word": " opportunity",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 50.52,
+                    "end": 50.82,
+                    "word": " to",
+                    "probability": 0.962890625
+                },
+                {
+                    "start": 50.82,
+                    "end": 51.0,
+                    "word": " provide",
+                    "probability": 0.966796875
+                },
+                {
+                    "start": 51.0,
+                    "end": 51.26,
+                    "word": " new",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 51.26,
+                    "end": 51.7,
+                    "word": " capital",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 51.7,
+                    "end": 51.86,
+                    "word": " to",
+                    "probability": 0.80517578125
+                },
+                {
+                    "start": 51.86,
+                    "end": 52.06,
+                    "word": " more",
+                    "probability": 0.99365234375
+                },
+                {
+                    "start": 52.06,
+                    "end": 52.5,
+                    "word": " challenged",
+                    "probability": 0.87939453125
+                },
+                {
+                    "start": 52.5,
+                    "end": 52.92,
+                    "word": " capital",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 52.92,
+                    "end": 53.34,
+                    "word": " structures",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 53.34,
+                    "end": 53.58,
+                    "word": " within",
+                    "probability": 0.99755859375
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "seek": 8106,
+            "start": 53.58,
+            "end": 59.6,
+            "text": " this market, we think this vintage, the vintages over the next couple of years are going to",
+            "tokens": [
+                50364,
+                341,
+                2142,
+                11,
+                321,
+                519,
+                341,
+                23050,
+                11,
+                264,
+                371,
+                686,
+                1660,
+                670,
+                264,
+                958,
+                1916,
+                295,
+                924,
+                366,
+                516,
+                281,
+                50662
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 53.58,
+                    "end": 53.86,
+                    "word": " this",
+                    "probability": 0.3984375
+                },
+                {
+                    "start": 53.86,
+                    "end": 54.36,
+                    "word": " market,",
+                    "probability": 0.98095703125
+                },
+                {
+                    "start": 54.82,
+                    "end": 55.08,
+                    "word": " we",
+                    "probability": 0.65673828125
+                },
+                {
+                    "start": 55.08,
+                    "end": 55.68,
+                    "word": " think",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 55.68,
+                    "end": 56.72,
+                    "word": " this",
+                    "probability": 0.89697265625
+                },
+                {
+                    "start": 56.72,
+                    "end": 57.1,
+                    "word": " vintage,",
+                    "probability": 0.970703125
+                },
+                {
+                    "start": 57.24,
+                    "end": 57.36,
+                    "word": " the",
+                    "probability": 0.9873046875
+                },
+                {
+                    "start": 57.36,
+                    "end": 57.66,
+                    "word": " vintages",
+                    "probability": 0.9236653645833334
+                },
+                {
+                    "start": 57.66,
+                    "end": 57.88,
+                    "word": " over",
+                    "probability": 0.974609375
+                },
+                {
+                    "start": 57.88,
+                    "end": 57.98,
+                    "word": " the",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 57.98,
+                    "end": 58.16,
+                    "word": " next",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 58.16,
+                    "end": 58.36,
+                    "word": " couple",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 58.36,
+                    "end": 58.68,
+                    "word": " of",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 58.68,
+                    "end": 59.12,
+                    "word": " years",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 59.12,
+                    "end": 59.48,
+                    "word": " are",
+                    "probability": 0.70068359375
+                },
+                {
+                    "start": 59.48,
+                    "end": 59.54,
+                    "word": " going",
+                    "probability": 0.78857421875
+                },
+                {
+                    "start": 59.54,
+                    "end": 59.6,
+                    "word": " to",
+                    "probability": 0.9931640625
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "seek": 8106,
+            "start": 59.6,
+            "end": 64.64,
+            "text": " be very, very attractive from a return perspective across the full range of opportunities within",
+            "tokens": [
+                50662,
+                312,
+                588,
+                11,
+                588,
+                12609,
+                490,
+                257,
+                2736,
+                4585,
+                2108,
+                264,
+                1577,
+                3613,
+                295,
+                4786,
+                1951,
+                50916
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 59.6,
+                    "end": 59.7,
+                    "word": " be",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 59.7,
+                    "end": 59.94,
+                    "word": " very,",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 59.94,
+                    "end": 60.12,
+                    "word": " very",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 60.12,
+                    "end": 60.44,
+                    "word": " attractive",
+                    "probability": 0.9912109375
+                },
+                {
+                    "start": 60.44,
+                    "end": 60.66,
+                    "word": " from",
+                    "probability": 0.96630859375
+                },
+                {
+                    "start": 60.66,
+                    "end": 60.86,
+                    "word": " a",
+                    "probability": 0.990234375
+                },
+                {
+                    "start": 60.86,
+                    "end": 61.04,
+                    "word": " return",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 61.04,
+                    "end": 61.76,
+                    "word": " perspective",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 61.76,
+                    "end": 62.4,
+                    "word": " across",
+                    "probability": 0.89697265625
+                },
+                {
+                    "start": 62.4,
+                    "end": 62.6,
+                    "word": " the",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 62.6,
+                    "end": 62.86,
+                    "word": " full",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 62.86,
+                    "end": 63.3,
+                    "word": " range",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 63.3,
+                    "end": 63.5,
+                    "word": " of",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 63.5,
+                    "end": 64.12,
+                    "word": " opportunities",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 64.12,
+                    "end": 64.64,
+                    "word": " within",
+                    "probability": 0.9931640625
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "seek": 8106,
+            "start": 64.64,
+            "end": 65.68,
+            "text": " the private markets.",
+            "tokens": [
+                50916,
+                264,
+                4551,
+                8383,
+                13,
+                50990
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 64.64,
+                    "end": 64.88,
+                    "word": " the",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 64.88,
+                    "end": 65.14,
+                    "word": " private",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 65.14,
+                    "end": 65.68,
+                    "word": " markets.",
+                    "probability": 0.98388671875
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "seek": 8106,
+            "start": 66.12,
+            "end": 70.82,
+            "text": " The one caveat is that you do have a lot of large players in this space appearing",
+            "tokens": [
+                50990,
+                440,
+                472,
+                43012,
+                307,
+                300,
+                291,
+                360,
+                362,
+                257,
+                688,
+                295,
+                2416,
+                4150,
+                294,
+                341,
+                1901,
+                19870,
+                51226
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 66.12,
+                    "end": 66.24,
+                    "word": " The",
+                    "probability": 0.87890625
+                },
+                {
+                    "start": 66.24,
+                    "end": 66.4,
+                    "word": " one",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 66.4,
+                    "end": 66.86,
+                    "word": " caveat",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 66.86,
+                    "end": 67.14,
+                    "word": " is",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 67.14,
+                    "end": 67.44,
+                    "word": " that",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 67.44,
+                    "end": 67.68,
+                    "word": " you",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 67.68,
+                    "end": 68.02,
+                    "word": " do",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 68.02,
+                    "end": 68.36,
+                    "word": " have",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 68.36,
+                    "end": 68.5,
+                    "word": " a",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 68.5,
+                    "end": 68.68,
+                    "word": " lot",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 68.68,
+                    "end": 68.82,
+                    "word": " of",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 68.82,
+                    "end": 69.04,
+                    "word": " large",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 69.04,
+                    "end": 69.3,
+                    "word": " players",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 69.3,
+                    "end": 69.5,
+                    "word": " in",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 69.5,
+                    "end": 69.7,
+                    "word": " this",
+                    "probability": 0.9521484375
+                },
+                {
+                    "start": 69.7,
+                    "end": 70.1,
+                    "word": " space",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 70.1,
+                    "end": 70.82,
+                    "word": " appearing",
+                    "probability": 0.95068359375
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "seek": 8106,
+            "start": 70.82,
+            "end": 73.0,
+            "text": " to battle over market share and scale.",
+            "tokens": [
+                51226,
+                281,
+                4635,
+                670,
+                2142,
+                2073,
+                293,
+                4373,
+                13,
+                51362
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 70.82,
+                    "end": 71.14,
+                    "word": " to",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 71.14,
+                    "end": 71.32,
+                    "word": " battle",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 71.32,
+                    "end": 71.62,
+                    "word": " over",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 71.62,
+                    "end": 71.98,
+                    "word": " market",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 71.98,
+                    "end": 72.24,
+                    "word": " share",
+                    "probability": 0.99072265625
+                },
+                {
+                    "start": 72.24,
+                    "end": 72.62,
+                    "word": " and",
+                    "probability": 0.96435546875
+                },
+                {
+                    "start": 72.62,
+                    "end": 73.0,
+                    "word": " scale.",
+                    "probability": 0.99658203125
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "seek": 8106,
+            "start": 73.58,
+            "end": 76.64,
+            "text": " Anytime you have that dynamic in the market, you have to be cognizant of the",
+            "tokens": [
+                51362,
+                39401,
+                291,
+                362,
+                300,
+                8546,
+                294,
+                264,
+                2142,
+                11,
+                291,
+                362,
+                281,
+                312,
+                11786,
+                590,
+                394,
+                295,
+                264,
+                51508
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 73.58,
+                    "end": 73.8,
+                    "word": " Anytime",
+                    "probability": 0.5361328125
+                },
+                {
+                    "start": 73.8,
+                    "end": 74.0,
+                    "word": " you",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 74.0,
+                    "end": 74.12,
+                    "word": " have",
+                    "probability": 0.935546875
+                },
+                {
+                    "start": 74.12,
+                    "end": 74.38,
+                    "word": " that",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 74.38,
+                    "end": 74.7,
+                    "word": " dynamic",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 74.7,
+                    "end": 74.86,
+                    "word": " in",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 74.86,
+                    "end": 75.02,
+                    "word": " the",
+                    "probability": 1.0
+                },
+                {
+                    "start": 75.02,
+                    "end": 75.28,
+                    "word": " market,",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 75.32,
+                    "end": 75.46,
+                    "word": " you",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 75.46,
+                    "end": 75.6,
+                    "word": " have",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 75.6,
+                    "end": 75.72,
+                    "word": " to",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 75.72,
+                    "end": 75.92,
+                    "word": " be",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 75.92,
+                    "end": 76.34,
+                    "word": " cognizant",
+                    "probability": 0.9820963541666666
+                },
+                {
+                    "start": 76.34,
+                    "end": 76.48,
+                    "word": " of",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 76.48,
+                    "end": 76.64,
+                    "word": " the",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "seek": 8106,
+            "start": 76.64,
+            "end": 81.06,
+            "text": " fact that you can get into a situation where competition leads to less credit",
+            "tokens": [
+                51508,
+                1186,
+                300,
+                291,
+                393,
+                483,
+                666,
+                257,
+                2590,
+                689,
+                6211,
+                6689,
+                281,
+                1570,
+                5397,
+                51730
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12232730243551104,
+            "compression_ratio": 1.77007299270073,
+            "no_speech_prob": 0.59130859375,
+            "words": [
+                {
+                    "start": 76.64,
+                    "end": 76.8,
+                    "word": " fact",
+                    "probability": 1.0
+                },
+                {
+                    "start": 76.8,
+                    "end": 77.0,
+                    "word": " that",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 77.0,
+                    "end": 77.14,
+                    "word": " you",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 77.14,
+                    "end": 77.22,
+                    "word": " can",
+                    "probability": 0.62646484375
+                },
+                {
+                    "start": 77.22,
+                    "end": 77.34,
+                    "word": " get",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 77.34,
+                    "end": 77.56,
+                    "word": " into",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 77.56,
+                    "end": 77.74,
+                    "word": " a",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 77.74,
+                    "end": 78.16,
+                    "word": " situation",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 78.16,
+                    "end": 78.48,
+                    "word": " where",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 78.48,
+                    "end": 79.04,
+                    "word": " competition",
+                    "probability": 0.9931640625
+                },
+                {
+                    "start": 79.04,
+                    "end": 79.48,
+                    "word": " leads",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 79.48,
+                    "end": 80.34,
+                    "word": " to",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 80.34,
+                    "end": 80.72,
+                    "word": " less",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 80.72,
+                    "end": 81.06,
+                    "word": " credit",
+                    "probability": 0.9951171875
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "seek": 10834,
+            "start": 81.56,
+            "end": 83.58,
+            "text": " protection, more aggressive underwriting.",
+            "tokens": [
+                50378,
+                6334,
+                11,
+                544,
+                10762,
+                833,
+                19868,
+                13,
+                50490
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 81.56,
+                    "end": 82.04,
+                    "word": " protection,",
+                    "probability": 0.452392578125
+                },
+                {
+                    "start": 82.44,
+                    "end": 82.68,
+                    "word": " more",
+                    "probability": 0.98193359375
+                },
+                {
+                    "start": 82.68,
+                    "end": 83.1,
+                    "word": " aggressive",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 83.1,
+                    "end": 83.58,
+                    "word": " underwriting.",
+                    "probability": 0.98876953125
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "seek": 10834,
+            "start": 83.68,
+            "end": 84.48,
+            "text": " You want to be selective.",
+            "tokens": [
+                50490,
+                509,
+                528,
+                281,
+                312,
+                33930,
+                13,
+                50536
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 83.68,
+                    "end": 83.76,
+                    "word": " You",
+                    "probability": 0.98876953125
+                },
+                {
+                    "start": 83.76,
+                    "end": 83.88,
+                    "word": " want",
+                    "probability": 0.80859375
+                },
+                {
+                    "start": 83.88,
+                    "end": 83.98,
+                    "word": " to",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 83.98,
+                    "end": 84.18,
+                    "word": " be",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 84.18,
+                    "end": 84.48,
+                    "word": " selective.",
+                    "probability": 0.9912109375
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "seek": 10834,
+            "start": 84.58,
+            "end": 86.5,
+            "text": " You want to be careful about capacity management.",
+            "tokens": [
+                50536,
+                509,
+                528,
+                281,
+                312,
+                5026,
+                466,
+                6042,
+                4592,
+                13,
+                50640
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 84.58,
+                    "end": 84.62,
+                    "word": " You",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 84.62,
+                    "end": 84.74,
+                    "word": " want",
+                    "probability": 0.99267578125
+                },
+                {
+                    "start": 84.74,
+                    "end": 84.82,
+                    "word": " to",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 84.82,
+                    "end": 84.98,
+                    "word": " be",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 84.98,
+                    "end": 85.16,
+                    "word": " careful",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 85.16,
+                    "end": 85.4,
+                    "word": " about",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 85.4,
+                    "end": 86.0,
+                    "word": " capacity",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 86.0,
+                    "end": 86.5,
+                    "word": " management.",
+                    "probability": 0.99072265625
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "seek": 10834,
+            "start": 86.64,
+            "end": 89.36,
+            "text": " You want to be in the areas perhaps that are a bit more complex, but less",
+            "tokens": [
+                50640,
+                509,
+                528,
+                281,
+                312,
+                294,
+                264,
+                3179,
+                4317,
+                300,
+                366,
+                257,
+                857,
+                544,
+                3997,
+                11,
+                457,
+                1570,
+                50772
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 86.64,
+                    "end": 86.76,
+                    "word": " You",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 86.76,
+                    "end": 86.88,
+                    "word": " want",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 86.88,
+                    "end": 86.96,
+                    "word": " to",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 86.96,
+                    "end": 87.06,
+                    "word": " be",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 87.06,
+                    "end": 87.18,
+                    "word": " in",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 87.18,
+                    "end": 87.34,
+                    "word": " the",
+                    "probability": 0.9892578125
+                },
+                {
+                    "start": 87.34,
+                    "end": 87.58,
+                    "word": " areas",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 87.58,
+                    "end": 87.94,
+                    "word": " perhaps",
+                    "probability": 0.60546875
+                },
+                {
+                    "start": 87.94,
+                    "end": 88.06,
+                    "word": " that",
+                    "probability": 0.9443359375
+                },
+                {
+                    "start": 88.06,
+                    "end": 88.16,
+                    "word": " are",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 88.16,
+                    "end": 88.18,
+                    "word": " a",
+                    "probability": 0.9384765625
+                },
+                {
+                    "start": 88.18,
+                    "end": 88.26,
+                    "word": " bit",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 88.26,
+                    "end": 88.48,
+                    "word": " more",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 88.48,
+                    "end": 88.92,
+                    "word": " complex,",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 88.96,
+                    "end": 89.1,
+                    "word": " but",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 89.1,
+                    "end": 89.36,
+                    "word": " less",
+                    "probability": 0.9970703125
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "seek": 10834,
+            "start": 89.36,
+            "end": 94.16,
+            "text": " traffic, and that's our mindset in trying to bring our clients value, a strong",
+            "tokens": [
+                50772,
+                6419,
+                11,
+                293,
+                300,
+                311,
+                527,
+                12543,
+                294,
+                1382,
+                281,
+                1565,
+                527,
+                6982,
+                2158,
+                11,
+                257,
+                2068,
+                51016
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 89.36,
+                    "end": 89.86,
+                    "word": " traffic,",
+                    "probability": 0.255615234375
+                },
+                {
+                    "start": 90.16,
+                    "end": 90.34,
+                    "word": " and",
+                    "probability": 0.994140625
+                },
+                {
+                    "start": 90.34,
+                    "end": 90.6,
+                    "word": " that's",
+                    "probability": 0.996826171875
+                },
+                {
+                    "start": 90.6,
+                    "end": 90.82,
+                    "word": " our",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 90.82,
+                    "end": 91.22,
+                    "word": " mindset",
+                    "probability": 0.990234375
+                },
+                {
+                    "start": 91.22,
+                    "end": 91.48,
+                    "word": " in",
+                    "probability": 0.92919921875
+                },
+                {
+                    "start": 91.48,
+                    "end": 91.62,
+                    "word": " trying",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 91.62,
+                    "end": 91.86,
+                    "word": " to",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 91.86,
+                    "end": 92.16,
+                    "word": " bring",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 92.16,
+                    "end": 92.6,
+                    "word": " our",
+                    "probability": 0.98291015625
+                },
+                {
+                    "start": 92.6,
+                    "end": 92.92,
+                    "word": " clients",
+                    "probability": 0.7705078125
+                },
+                {
+                    "start": 92.92,
+                    "end": 93.86,
+                    "word": " value,",
+                    "probability": 0.66845703125
+                },
+                {
+                    "start": 94.04,
+                    "end": 94.06,
+                    "word": " a",
+                    "probability": 0.61767578125
+                },
+                {
+                    "start": 94.06,
+                    "end": 94.16,
+                    "word": " strong",
+                    "probability": 0.9755859375
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "seek": 10834,
+            "start": 94.16,
+            "end": 96.78,
+            "text": " value proposition within these segments of the market.",
+            "tokens": [
+                51016,
+                2158,
+                24830,
+                1951,
+                613,
+                19904,
+                295,
+                264,
+                2142,
+                13,
+                51150
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 94.16,
+                    "end": 94.5,
+                    "word": " value",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 94.5,
+                    "end": 94.98,
+                    "word": " proposition",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 94.98,
+                    "end": 95.66,
+                    "word": " within",
+                    "probability": 0.69677734375
+                },
+                {
+                    "start": 95.66,
+                    "end": 95.92,
+                    "word": " these",
+                    "probability": 0.98583984375
+                },
+                {
+                    "start": 95.92,
+                    "end": 96.18,
+                    "word": " segments",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 96.18,
+                    "end": 96.36,
+                    "word": " of",
+                    "probability": 0.9912109375
+                },
+                {
+                    "start": 96.36,
+                    "end": 96.48,
+                    "word": " the",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 96.48,
+                    "end": 96.78,
+                    "word": " market.",
+                    "probability": 0.982421875
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "seek": 10834,
+            "start": 97.1,
+            "end": 102.34,
+            "text": " So some challenges across the legacy space, some still adjustment of pricing in that",
+            "tokens": [
+                51150,
+                407,
+                512,
+                4759,
+                2108,
+                264,
+                11711,
+                1901,
+                11,
+                512,
+                920,
+                17132,
+                295,
+                17621,
+                294,
+                300,
+                51422
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 97.1,
+                    "end": 97.22,
+                    "word": " So",
+                    "probability": 0.9140625
+                },
+                {
+                    "start": 97.22,
+                    "end": 97.68,
+                    "word": " some",
+                    "probability": 0.5908203125
+                },
+                {
+                    "start": 97.68,
+                    "end": 98.02,
+                    "word": " challenges",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 98.02,
+                    "end": 98.4,
+                    "word": " across",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 98.4,
+                    "end": 98.66,
+                    "word": " the",
+                    "probability": 0.994140625
+                },
+                {
+                    "start": 98.66,
+                    "end": 99.1,
+                    "word": " legacy",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 99.1,
+                    "end": 99.74,
+                    "word": " space,",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 100.38,
+                    "end": 100.66,
+                    "word": " some",
+                    "probability": 0.587890625
+                },
+                {
+                    "start": 100.66,
+                    "end": 100.82,
+                    "word": " still",
+                    "probability": 0.86572265625
+                },
+                {
+                    "start": 100.82,
+                    "end": 101.24,
+                    "word": " adjustment",
+                    "probability": 0.9853515625
+                },
+                {
+                    "start": 101.24,
+                    "end": 101.5,
+                    "word": " of",
+                    "probability": 0.990234375
+                },
+                {
+                    "start": 101.5,
+                    "end": 101.82,
+                    "word": " pricing",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 101.82,
+                    "end": 102.12,
+                    "word": " in",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 102.12,
+                    "end": 102.34,
+                    "word": " that",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "seek": 10834,
+            "start": 102.34,
+            "end": 106.28,
+            "text": " area, but in terms of new capital deployment over the course of the next two to three",
+            "tokens": [
+                51422,
+                1859,
+                11,
+                457,
+                294,
+                2115,
+                295,
+                777,
+                4238,
+                19317,
+                670,
+                264,
+                1164,
+                295,
+                264,
+                958,
+                732,
+                281,
+                1045,
+                51618
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 102.34,
+                    "end": 102.76,
+                    "word": " area,",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 102.98,
+                    "end": 103.18,
+                    "word": " but",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 103.18,
+                    "end": 103.26,
+                    "word": " in",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 103.26,
+                    "end": 103.44,
+                    "word": " terms",
+                    "probability": 1.0
+                },
+                {
+                    "start": 103.44,
+                    "end": 103.78,
+                    "word": " of",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 103.78,
+                    "end": 104.02,
+                    "word": " new",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 104.02,
+                    "end": 104.42,
+                    "word": " capital",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 104.42,
+                    "end": 104.82,
+                    "word": " deployment",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 104.82,
+                    "end": 105.04,
+                    "word": " over",
+                    "probability": 0.96875
+                },
+                {
+                    "start": 105.04,
+                    "end": 105.16,
+                    "word": " the",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 105.16,
+                    "end": 105.28,
+                    "word": " course",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 105.28,
+                    "end": 105.46,
+                    "word": " of",
+                    "probability": 0.9912109375
+                },
+                {
+                    "start": 105.46,
+                    "end": 105.5,
+                    "word": " the",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 105.5,
+                    "end": 105.66,
+                    "word": " next",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 105.66,
+                    "end": 105.86,
+                    "word": " two",
+                    "probability": 0.95751953125
+                },
+                {
+                    "start": 105.86,
+                    "end": 106.04,
+                    "word": " to",
+                    "probability": 0.99560546875
+                },
+                {
+                    "start": 106.04,
+                    "end": 106.28,
+                    "word": " three",
+                    "probability": 0.9990234375
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "seek": 10834,
+            "start": 106.28,
+            "end": 108.34,
+            "text": " years, very attractive opportunities.",
+            "tokens": [
+                51618,
+                924,
+                11,
+                588,
+                12609,
+                4786,
+                13,
+                51740
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13684476058809988,
+            "compression_ratio": 1.78,
+            "no_speech_prob": 0.398193359375,
+            "words": [
+                {
+                    "start": 106.28,
+                    "end": 106.68,
+                    "word": " years,",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 107.12,
+                    "end": 107.28,
+                    "word": " very",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 107.28,
+                    "end": 107.68,
+                    "word": " attractive",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 107.68,
+                    "end": 108.34,
+                    "word": " opportunities.",
+                    "probability": 0.99755859375
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "seek": 12733,
+            "start": 108.34,
+            "end": 112.8,
+            "text": " Great news is that this is a sizable area of the market today, so investors can be",
+            "tokens": [
+                50380,
+                3769,
+                2583,
+                307,
+                300,
+                341,
+                307,
+                257,
+                13723,
+                712,
+                1859,
+                295,
+                264,
+                2142,
+                965,
+                11,
+                370,
+                11519,
+                393,
+                312,
+                50580
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.15305898558925574,
+            "compression_ratio": 1.5136612021857923,
+            "no_speech_prob": 0.0310211181640625,
+            "words": [
+                {
+                    "start": 108.34,
+                    "end": 108.92,
+                    "word": " Great",
+                    "probability": 0.347900390625
+                },
+                {
+                    "start": 108.92,
+                    "end": 109.18,
+                    "word": " news",
+                    "probability": 0.99169921875
+                },
+                {
+                    "start": 109.18,
+                    "end": 109.34,
+                    "word": " is",
+                    "probability": 0.98681640625
+                },
+                {
+                    "start": 109.34,
+                    "end": 109.5,
+                    "word": " that",
+                    "probability": 0.984375
+                },
+                {
+                    "start": 109.5,
+                    "end": 109.68,
+                    "word": " this",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 109.68,
+                    "end": 109.84,
+                    "word": " is",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 109.84,
+                    "end": 110.14,
+                    "word": " a",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 110.14,
+                    "end": 110.56,
+                    "word": " sizable",
+                    "probability": 0.872802734375
+                },
+                {
+                    "start": 110.56,
+                    "end": 110.78,
+                    "word": " area",
+                    "probability": 0.9970703125
+                },
+                {
+                    "start": 110.78,
+                    "end": 110.9,
+                    "word": " of",
+                    "probability": 0.99072265625
+                },
+                {
+                    "start": 110.9,
+                    "end": 111.04,
+                    "word": " the",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 111.04,
+                    "end": 111.26,
+                    "word": " market",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 111.26,
+                    "end": 111.72,
+                    "word": " today,",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 112.04,
+                    "end": 112.14,
+                    "word": " so",
+                    "probability": 0.9931640625
+                },
+                {
+                    "start": 112.14,
+                    "end": 112.46,
+                    "word": " investors",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 112.46,
+                    "end": 112.64,
+                    "word": " can",
+                    "probability": 0.86865234375
+                },
+                {
+                    "start": 112.64,
+                    "end": 112.8,
+                    "word": " be",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "seek": 12733,
+            "start": 112.8,
+            "end": 113.16,
+            "text": " patient.",
+            "tokens": [
+                50580,
+                4537,
+                13,
+                50626
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.15305898558925574,
+            "compression_ratio": 1.5136612021857923,
+            "no_speech_prob": 0.0310211181640625,
+            "words": [
+                {
+                    "start": 112.8,
+                    "end": 113.16,
+                    "word": " patient.",
+                    "probability": 0.99951171875
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "seek": 12733,
+            "start": 113.62,
+            "end": 116.06,
+            "text": " They don't have to think about deploying money over the course of the next few",
+            "tokens": [
+                50626,
+                814,
+                500,
+                380,
+                362,
+                281,
+                519,
+                466,
+                34198,
+                1460,
+                670,
+                264,
+                1164,
+                295,
+                264,
+                958,
+                1326,
+                50748
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.15305898558925574,
+            "compression_ratio": 1.5136612021857923,
+            "no_speech_prob": 0.0310211181640625,
+            "words": [
+                {
+                    "start": 113.62,
+                    "end": 113.74,
+                    "word": " They",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 113.74,
+                    "end": 113.86,
+                    "word": " don't",
+                    "probability": 0.997314453125
+                },
+                {
+                    "start": 113.86,
+                    "end": 113.98,
+                    "word": " have",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 113.98,
+                    "end": 114.1,
+                    "word": " to",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 114.1,
+                    "end": 114.2,
+                    "word": " think",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 114.2,
+                    "end": 114.42,
+                    "word": " about",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 114.42,
+                    "end": 114.76,
+                    "word": " deploying",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 114.76,
+                    "end": 115.0,
+                    "word": " money",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 115.0,
+                    "end": 115.26,
+                    "word": " over",
+                    "probability": 0.9921875
+                },
+                {
+                    "start": 115.26,
+                    "end": 115.3,
+                    "word": " the",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 115.3,
+                    "end": 115.44,
+                    "word": " course",
+                    "probability": 0.998046875
+                },
+                {
+                    "start": 115.44,
+                    "end": 115.62,
+                    "word": " of",
+                    "probability": 0.986328125
+                },
+                {
+                    "start": 115.62,
+                    "end": 115.66,
+                    "word": " the",
+                    "probability": 0.9931640625
+                },
+                {
+                    "start": 115.66,
+                    "end": 115.9,
+                    "word": " next",
+                    "probability": 0.99951171875
+                },
+                {
+                    "start": 115.9,
+                    "end": 116.06,
+                    "word": " few",
+                    "probability": 0.9970703125
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "seek": 12733,
+            "start": 116.06,
+            "end": 117.44,
+            "text": " months or the next couple of quarters.",
+            "tokens": [
+                50748,
+                2493,
+                420,
+                264,
+                958,
+                1916,
+                295,
+                20612,
+                13,
+                50838
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.15305898558925574,
+            "compression_ratio": 1.5136612021857923,
+            "no_speech_prob": 0.0310211181640625,
+            "words": [
+                {
+                    "start": 116.06,
+                    "end": 116.32,
+                    "word": " months",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 116.32,
+                    "end": 116.5,
+                    "word": " or",
+                    "probability": 0.400634765625
+                },
+                {
+                    "start": 116.5,
+                    "end": 116.56,
+                    "word": " the",
+                    "probability": 0.93701171875
+                },
+                {
+                    "start": 116.56,
+                    "end": 116.76,
+                    "word": " next",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 116.76,
+                    "end": 116.94,
+                    "word": " couple",
+                    "probability": 0.99853515625
+                },
+                {
+                    "start": 116.94,
+                    "end": 117.14,
+                    "word": " of",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 117.14,
+                    "end": 117.44,
+                    "word": " quarters.",
+                    "probability": 0.99755859375
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "seek": 12733,
+            "start": 117.9,
+            "end": 120.12,
+            "text": " We do think this is going to be a sustained multi-year opportunity.",
+            "tokens": [
+                50838,
+                492,
+                360,
+                519,
+                341,
+                307,
+                516,
+                281,
+                312,
+                257,
+                23389,
+                4825,
+                12,
+                5294,
+                2650,
+                13,
+                50952
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.15305898558925574,
+            "compression_ratio": 1.5136612021857923,
+            "no_speech_prob": 0.0310211181640625,
+            "words": [
+                {
+                    "start": 117.9,
+                    "end": 117.98,
+                    "word": " We",
+                    "probability": 0.99462890625
+                },
+                {
+                    "start": 117.98,
+                    "end": 118.08,
+                    "word": " do",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 118.08,
+                    "end": 118.18,
+                    "word": " think",
+                    "probability": 0.99658203125
+                },
+                {
+                    "start": 118.18,
+                    "end": 118.38,
+                    "word": " this",
+                    "probability": 0.98583984375
+                },
+                {
+                    "start": 118.38,
+                    "end": 118.46,
+                    "word": " is",
+                    "probability": 0.9453125
+                },
+                {
+                    "start": 118.46,
+                    "end": 118.52,
+                    "word": " going",
+                    "probability": 0.67041015625
+                },
+                {
+                    "start": 118.52,
+                    "end": 118.6,
+                    "word": " to",
+                    "probability": 0.9951171875
+                },
+                {
+                    "start": 118.6,
+                    "end": 118.74,
+                    "word": " be",
+                    "probability": 0.9990234375
+                },
+                {
+                    "start": 118.74,
+                    "end": 118.82,
+                    "word": " a",
+                    "probability": 0.99755859375
+                },
+                {
+                    "start": 118.82,
+                    "end": 119.18,
+                    "word": " sustained",
+                    "probability": 0.99609375
+                },
+                {
+                    "start": 119.18,
+                    "end": 119.5,
+                    "word": " multi",
+                    "probability": 0.94482421875
+                },
+                {
+                    "start": 119.5,
+                    "end": 119.66,
+                    "word": "-year",
+                    "probability": 0.871826171875
+                },
+                {
+                    "start": 119.66,
+                    "end": 120.12,
+                    "word": " opportunity.",
+                    "probability": 0.998046875
+                }
+            ]
+        }
+    ]
+}

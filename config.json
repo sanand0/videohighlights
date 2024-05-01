@@ -1,0 +1,25 @@
+{
+  "demos": {
+    "four-economic-themes-to-know-in-2024": {
+      "title": "Four Economic Themes to Know in 2024",
+      "url": "https://www.pimco.com.sg/en-sg/resources/video-library/media/four-economic-themes-to-know-in-2024/",
+      "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345592658112",
+      "youtube": "qErJFCW2q_s",
+      "transcript": "videos/four-economic-themes-to-know-in-2024.json"
+    },
+    "opportunity-in-focus-private-credit": {
+      "title": "Opportunity in Focus - Private Credit",
+      "url": "https://www.pimco.com/en-us/resources/video-library/media/opportunity-in-focus-private-credit",
+      "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345592005112",
+      "youtube": "aQ4qt23ypMw",
+      "transcript": "videos/opportunity-in-focus-private-credit.json"
+    },
+    "capitalizing-on-market-shifts-in-2024": {
+      "title": "Capitalizing on Market Shifts in 2024",
+      "url": "https://www.pimco.com/en-us/resources/video-library/media/capitalizing-on-market-shifts-in-2024",
+      "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345591871112",
+      "youtube": "3jz5LDR8FTo",
+      "transcript": "videos/capitalizing-on-market-shifts-in-2024.json"
+    }
+  }
+}

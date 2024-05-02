@@ -22,6 +22,13 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let transcriptData;
 
+const renderInterests = (advisorId, interests) =>
+  interests
+    .split(/,\s*/)
+    .map((interest, i) => [
+      i ? ", " : "",
+      html`<a class="interest" href="#" data-advisor="${advisorId}" data-interest="${interest}">${interest}</a>`,
+    ]);
 const homePage = html`
   <h1 class="display-1 my-5 text-center">Video Highlights</h1>
 
@@ -58,21 +65,7 @@ const homePage = html`
               <p><strong>Clientele</strong>: ${advisor.clientele}</p>
               <p><strong>Goals</strong>: ${advisor.goals}</p>
               <p><strong>Challenges</strong>: ${advisor.challenges}</p>
-              <p>
-                <strong>Interests</strong>:
-                ${advisor.interests
-                  .split(/,\s*/)
-                  .map((interest, i) => [
-                    i ? ", " : "",
-                    html`<a
-                      class="text-decoration-none interest"
-                      href="#"
-                      data-advisor="${id}"
-                      data-interest="${interest}"
-                      >${interest}</a
-                    >`,
-                  ])}
-              </p>
+              <p><strong>Interests</strong>: ${renderInterests(id, advisor.interests)}</p>
               <p><i class="bi bi-magic text-primary fs-5"></i> Click on interests for supporting interactions.</p>
             </div>
           </div>
@@ -208,8 +201,8 @@ async function renderApp(videoId, advisorId) {
       <p><strong>Clientele</strong>: ${advisor.clientele}</p>
       <p><strong>Goals</strong>: ${advisor.goals}</p>
       <p><strong>Challenges</strong>: ${advisor.challenges}</p>
-      <p><strong>Interests</strong>: ${advisor.interests}
-        <br><small class="text-secondary"><i class="bi bi-magic text-primary fs-5"></i> Interests are dynamically generated from email, CRM, and web visits</small></p>
+      <p><strong>Interests</strong>: ${renderInterests(advisorId, advisor.interests)}</p>
+      <p class="small text-secondary"><i class="bi bi-magic text-primary fs-5"></i> Click on interests for supporting interactions.</p>
     </div>
     `,
     $highlights,
@@ -314,7 +307,7 @@ const $interestModal = document.querySelector("#interest-modal");
 const interestModal = new bootstrap.Modal($interestModal);
 const interests = await fetch("interests.json").then((r) => r.json());
 
-$home.addEventListener("click", (e) => {
+document.body.addEventListener("click", (e) => {
   const interest = e.target.closest(".interest");
   if (interest) {
     e.preventDefault();

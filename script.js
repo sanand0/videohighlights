@@ -1,6 +1,8 @@
 /* globals YT */
 
 import { render, html } from "https://cdn.jsdelivr.net/npm/lit-html@3/+esm";
+import { unsafeHTML } from "https://cdn.jsdelivr.net/npm/lit-html@3/directives/unsafe-html.js";
+import { marked } from "https://cdn.jsdelivr.net/npm/marked@12/lib/marked.esm.js";
 
 const youtubeScript = document.createElement("script");
 youtubeScript.src = "https://www.youtube.com/iframe_api";
@@ -22,20 +24,18 @@ let transcriptData;
 const homePage = html`
   <h1 class="display-1 my-5 text-center">Video Highlights</h1>
 
-  <p class="text-center display-6">Search with Gen AI. Get answers directly, with citations.</p>
-  <div class="mx-auto my-5" style="max-width: 30rem">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+  <p class="text-center display-6">Personalize transcripts. Highlight actionable insights.</p>
+  <div class="mx-auto my-5" style="max-width: 35rem">
+    <h2 class="h5">Videos are slow. Transcripts are long.</h2>
+    <q>I don't have the patience to watch the entire videos or read the transcript. I don't even know if it's relevant!</q>
+    <h2 class="h5 mt-3">Each person is different</h2>
+    <q>Generic summaries waste my time. Tell me what <strong>I</strong> should know!</q>
+    <hr>
+    <h2 class="h5 mt-3">Automate transcripts & personalize highlights</h2>
+    <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.
+    <ul>
+      ${Object.values(config.videos).map(video => html`<li>${video.title}</li>`)}
+    </ul>
   </div>
 
   <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
@@ -57,7 +57,7 @@ const homePage = html`
 `;
 
 const renderSegment = ({ id, start, text, avg_logprob }) =>
-  html`<span data-start="${start}" data-id="${id}" data-logprob="${avg_logprob}">${text}</span>`;
+  html`<span class="seek" data-start="${start}" data-id="${id}" data-logprob="${avg_logprob}">${text}</span>`;
 
 async function renderApp(videoId, advisorId) {
   const video = config.videos[videoId];
@@ -153,25 +153,26 @@ async function renderApp(videoId, advisorId) {
   const $animatedText = $highlights.querySelector("#animated-text");
   const highlights = [];
   for (let i = 0; i < chunks.length; i++) {
-    for (let j = 0; j < chunks[i].p.length; j += 8) {
-      highlights[i] = html`<p>${chunks[i].p.slice(0, j + 1)}</p>`;
+    const { p, start_time } = chunks[i];
+    for (let j = 0; j < p.length; j += 8) {
+      highlights[i] = html`<p>${p.slice(0, j + 1)}</p>`;
       render(highlights, $animatedText);
       await sleep(10);
       if (currentAdvisorId !== advisorId) return;
     }
-    highlights[i] = html`<p>
-      ${chunks[i].p} <a href="#" data-start="${chunks[i].start_time}">#${chunks[i].start_time}</a>
-    </p>`;
+    const m = Math.floor(start_time / 60);
+    const s = Math.floor(start_time % 60);
+    highlights[i] = unsafeHTML(marked.parse(p + ` <a href="#${start_time}" class="seek" title="See relevant clip">${m}m ${s}s</a>`));
     render(highlights, $animatedText);
   }
 }
 
 // When a segment is clicked, jump to that segment in the video
 $app.addEventListener("click", (e) => {
-  const $segment = e.target.closest("[data-start]");
+  const $segment = e.target.closest("[data-start], .seek");
   if ($segment) {
     e.preventDefault();
-    player.seekTo($segment.dataset.start, true);
+    player.seekTo($segment.dataset.start ?? $segment.getAttribute("href").slice(1), true);
     if (player.getPlayerState() != 1) player.playVideo();
   }
 });

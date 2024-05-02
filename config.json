@@ -1,5 +1,5 @@
 {
-  "demos": {
+  "videos": {
     "four-economic-themes-to-know-in-2024": {
       "title": "Four Economic Themes to Know in 2024",
       "url": "https://www.pimco.com.sg/en-sg/resources/video-library/media/four-economic-themes-to-know-in-2024/",
@@ -21,5 +21,348 @@
       "youtube": "3jz5LDR8FTo",
       "transcript": "videos/capitalizing-on-market-shifts-in-2024.json"
     }
+  },
+  "advisors": {
+    "jane-doe": {
+      "img": "img/jane-doe.webp",
+      "name": "Jane Doe",
+      "persona": "Growth-Oriented",
+      "age": 37,
+      "background": "MBA in Finance, 12 years in the industry",
+      "firm": "Mid-sized RIA",
+      "specialties": "Stocks, bonds, emerging markets",
+      "clientele": "Growth-focused young professionals",
+      "goals": "Maximize client returns through innovative investments",
+      "challenges": "Keeping up with market trends and finding growth opportunities",
+      "interests": "emerging markets, high-performing investments, mutual fund performance, portfolio adjustment, international funds, structured products, risk management, investment strategies, portfolio diversification, financial analytics",
+      "highlights": {
+        "four-economic-themes-to-know-in-2024": [
+          {
+            "p": "Jane, this video offers valuable insights into global economic trends that can inform your investment strategies for growth-focused young professionals. Notably, the expectation of central banks reaching the peak of their rate hiking cycle and the potential easing on the horizon could create new opportunities in bonds and interest-sensitive stocks.",
+            "start_time": 23.5
+          },
+          {
+            "p": "The indication that household savings are depleting and that government policies may be contractionary suggests a cautious approach. For your clientele, this might mean reevaluating risk exposures in portfolios, particularly in markets like Europe and the UK, which are showing signs of stagnation or mild recession.",
+            "start_time": 56.36
+          },
+          {
+            "p": "Given the forecasted easing of labor markets and continuing decline in inflation, there could be a shift towards more stable, value-driven investments. For your strategies focused on emerging markets and structured products, it's crucial to consider how these broader economic shifts could impact asset prices and currency stability.",
+            "start_time": 132.32
+          },
+          {
+            "p": "Finally, the persistent risk of inflation being sticky, particularly in the U.S., where growth has been more resilient, suggests a potential for surprise inflation spikes. This necessitates a focus on inflation-hedging investments such as real assets or commodities, which can protect the real value of your clients' portfolios.",
+            "start_time": 259.5
+          }
+        ],
+        "opportunity-in-focus-private-credit": [
+          {
+            "p": "Jane, this video can help your growth-focused young professionals understand the potential shifts in the private credit market. The pullback of banks from traditional lending presents an opportunity to invest in private credit, which is becoming a more prominent component of diverse investment portfolios. Given the increased challenges and the significant credit deterioration noted in the video, there's a chance to capitalize on new, profitable ventures that arise from these market dynamics.",
+            "start_time": 8.06
+          },
+          {
+            "p": "The mention of 'significant opportunity to provide new capital to more challenged capital structures' suggests that your clients could benefit from investing in distressed assets that may yield higher returns. These are often overlooked or undervalued by the broader market, especially in private real estate and corporate credit markets. With your background in risk management and financial analytics, you can identify these opportunities that align with the risk appetite of your clientele, potentially offering substantial gains.",
+            "start_time": 28.78
+          },
+          {
+            "p": "However, caution is advised. The video highlights the risks of competition leading to less credit protection and more aggressive underwriting. This environment necessitates a selective approach, favoring complex, less-trafficked segments of the market. By focusing on these areas, you can manage capacity effectively and maintain a strong value proposition for your clients. Leveraging this approach aligns with your goals of maximizing returns through innovative investments while ensuring portfolio diversification.",
+            "start_time": 73.58
+          },
+          {
+            "p": "Overall, the sustained multi-year opportunity mentioned suggests that your clients do not need to rush their investments. Instead, they can afford to be patient, allowing for strategic deployment of capital in alignment with market conditions and emerging opportunities. This aligns with your focus on long-term growth and portfolio adjustment, ensuring that your clients' investments are both timely and aligned with market trends.",
+            "start_time": 117.9
+          }
+        ],
+        "capitalizing-on-market-shifts-in-2024": [
+          {
+            "p": "Jane, this video can help your growth-focused young professionals understand the complex landscape of 2024's financial markets. The insights about being 'a bit more defensive' and focusing on 'high quality sectors' align well with your goal of maximizing returns through innovative investments. Explaining to your clients the value of being cautious in economically sensitive areas while still spotting opportunities in high-quality investments could be crucial.",
+            "start_time": 49.34
+          },
+          {
+            "p": "The discussion around fixed income investments, particularly the potential for high-quality bond portfolios to yield about six percent, could be very relevant. This aligns with your interest in structured products and risk management. Highlighting the predictability and defensive nature of these investments might resonate well with your clients looking for stability amidst volatility.",
+            "start_time": 124.1
+          },
+          {
+            "p": "Lastly, the emphasis on global bond investing and the less synchronized cycles in the real economy and central banks might be particularly compelling. This could be a great opportunity to discuss how international funds and diversification can help mitigate risks and exploit alpha-generating opportunities. It would be wise to consider this in your portfolio adjustments to cater to your clientele's needs for high-performing investments.",
+            "start_time": 164.66
+          }
+        ]
+      }
+    },
+    "michael-brown": {
+      "img": "img/michael-brown.webp",
+      "name": "Michael Brown",
+      "persona": "Risk-Averse",
+      "age": 50,
+      "background": "CFP, 25 years in wealth management",
+      "firm": "Private wealth management firm",
+      "specialties": "Fixed income, annuities, estate planning",
+      "clientele": "High-net-worth individuals nearing retirement",
+      "goals": "Focus on wealth preservation and low-risk investments",
+      "challenges": "Managing volatility and maintaining steady income",
+      "interests": "wealth preservation, low-risk investments, fixed income, annuities, estate planning, volatility management, steady income, short-term investments, bond strategies, tax optimization, regulatory changes, market alignment, technology in finance, data analytics, AI in portfolio management, data security",
+      "highlights": {
+        "four-economic-themes-to-know-in-2024": [
+          {
+            "p": "Michael, this video can help your high-net-worth clients understand the shifting economic conditions as they prepare for retirement. The expected deceleration in economic growth and potential central bank easing could impact investment strategies focused on wealth preservation and low-risk investments.",
+            "start_time": 23.5
+          },
+          {
+            "p": "The mention of inflation rates potentially stabilizing and central banks nearing the peak of their rate hiking cycles is particularly relevant. As a Certified Financial Planner, you can guide your clients to adjust their fixed income portfolios to mitigate risks associated with rising interest rates and prepare for a scenario where rate cuts could increase bond prices, potentially offering capital gains in addition to interest income.",
+            "start_time": 39.4
+          },
+          {
+            "p": "Given the forecast of tightening fiscal policies and ongoing economic challenges in various global markets, your expertise in estate planning and annuities could be vital. Diversifying into these areas can provide your clients with stable, predictable returns and tax advantages, safeguarding their wealth against potential market volatility and economic downturns.",
+            "start_time": 73.24
+          },
+          {
+            "p": "Lastly, the highlighted risks of recession due to prolonged high-interest rates suggest a cautious approach. Leveraging data analytics and AI in portfolio management, you can refine investment strategies to better align with the current market conditions and optimize tax implications, thus maintaining steady income streams for your clients in uncertain times.",
+            "start_time": 171.38
+          }
+        ],
+        "opportunity-in-focus-private-credit": [
+          {
+            "p": "Michael, this video highlights the shifting landscape in private credit markets, particularly in the wake of banks retracting from traditional lending. Given your focus on wealth preservation and low-risk investments for high-net-worth individuals nearing retirement, the discussion of new opportunities in distressed credits and cautious capital deployment could be of particular interest.",
+            "start_time": 8.06
+          },
+          {
+            "p": "The video's analysis suggests a growing opportunity in private credit due to bank pullbacks and market shifts post-COVID. As someone specialized in fixed income and risk-averse strategies, you could use this information to advise clients on selectively entering private credit markets. By focusing on less trafficked, more complex opportunities, your clients can achieve higher returns without significantly increasing their risk exposure.",
+            "start_time": 28.78
+          },
+          {
+            "p": "Additionally, the emphasis on patient capital deployment and the expected attractiveness of upcoming vintages in private markets can align well with your clients’ goals. Highlighting the potential for sustained multi-year opportunities can help manage expectations and reassure clients focused on steady income and long-term security.",
+            "start_time": 66.12
+          },
+          {
+            "p": "Lastly, the competitive dynamics and potential for decreased credit protections noted in the video suggest a need for vigilance. Leverage your expertise in bond strategies and annuities to guide clients through these complexities, ensuring they understand the risks and benefits of diversifying into private credit as a part of their broader portfolio.",
+            "start_time": 73.58
+          }
+        ],
+        "capitalizing-on-market-shifts-in-2024": [
+          {
+            "p": "Michael, this video can help your high-net-worth clients nearing retirement understand the shifting market dynamics as we enter 2024. Emphasizing the potential for a soft landing and the high quality sectors discussed in the video aligns well with your focus on wealth preservation and low-risk investments.",
+            "start_time": 4.12
+          },
+          {
+            "p": "The emphasis on being defensive in economically sensitive areas, as mentioned around the 61.7-second mark, supports your strategy to manage volatility. This approach allows you to safeguard your clients' portfolios against potential market downturns, ensuring steady income through high quality bond investments.",
+            "start_time": 61.7
+          },
+          {
+            "p": "Additionally, the video's discussion at 136.6 seconds on the predictive power of starting yields for high-quality bond portfolios should be particularly relevant. You can use this information to reinforce to your clients the benefits of focusing on high-quality fixed income securities, which offer both stability and attractive forward returns, aligning with their goal for low-risk investments.",
+            "start_time": 136.6
+          },
+          {
+            "p": "Lastly, the global bond market's revival, as outlined at 164.66 seconds, provides a promising avenue for diversification and yield enhancement. This could be instrumental for your clientele, offering a way to improve returns while maintaining a conservative risk profile, especially valuable in a landscape still marked by considerable uncertainty and volatility.",
+            "start_time": 164.66
+          }
+        ]
+      }
+    },
+    "emily-turner": {
+      "img": "img/emily-turner.webp",
+      "name": "Emily Turner",
+      "persona": "ESG Advocate",
+      "age": 29,
+      "background": "Degree in Environmental Science, Sustainable Investment cert.",
+      "firm": "Small, boutique advisory",
+      "specialties": "ESG investments, green bonds",
+      "clientele": "Environmentally and socially conscious investors",
+      "goals": "Align investments with ethical values",
+      "challenges": "Finding genuine ESG investments and avoiding greenwashing",
+      "interests": "sustainable investments, ESG, high-yield investments, private equity, sustainable investment products, corporate bonds, ESG performance, ESG strategies, ESG initiatives, portfolio management",
+      "highlights": {
+        "four-economic-themes-to-know-in-2024": [
+          {
+            "p": "Emily, this video highlights several economic themes for 2024 that could impact ESG investments. Understanding the shifting economic landscape, particularly the trends in inflation and central bank policies, can help you advise your clients on where to allocate their investments more effectively.",
+            "start_time": 4.44
+          },
+          {
+            "p": "With central banks likely at the peak of the rate hiking cycle and the potential for rate cuts, ESG investments in sectors like renewable energy or sustainable technologies might become more attractive. These sectors often benefit from lower interest rates as they rely on capital-intensive projects which are cheaper to finance when rates are lower.",
+            "start_time": 23.5
+          },
+          {
+            "p": "The discussion around recession risks and the economic slowdown emphasizes the importance of resilience in investment portfolios. For your clients, focusing on companies with strong ESG ratings could be a safer route, as these companies often have better risk management and more sustainable practices, potentially leading to more stable returns during economic downturns.",
+            "start_time": 169.12
+          },
+          {
+            "p": "Lastly, the ongoing erosion of real household wealth and the transition towards more contractionary fiscal policies could redirect investor attention towards more sustainable and ethical investment options. This could drive growth in ESG markets, providing an opportunity to diversify into high-yield ESG bonds and private equity focusing on sustainability.",
+            "start_time": 56.36
+          }
+        ],
+        "opportunity-in-focus-private-credit": [
+          {
+            "p": "Emily, this video can help your environmentally and socially conscious investors understand the shifts in the private credit market. The increased credit deterioration, particularly noted since the COVID period, highlights both risks and potential high-yield opportunities in ESG-aligned investments.",
+            "start_time": 17.2
+          },
+          {
+            "p": "Given that banks are pulling back from traditional lending and legacy strategies are showing some signs of failure, there's a significant opportunity for deploying capital into private markets that align with ESG values. You can guide your clients to focus on new capital investments in sustainable projects within private real estate or corporate credit markets that face less competition and are more complex, thus potentially offering better returns and stronger ESG compliance.",
+            "start_time": 28.78
+          },
+          {
+            "p": "Be cautious of the competitive dynamics in the market, as noted around the 66-second mark. It's essential to avoid areas where aggressive competition might lead to compromised credit protections. Advising your clients to be selective and patient can help manage the risk and ensure investments are genuinely sustainable and not just superficially attractive.",
+            "start_time": 66.12
+          },
+          {
+            "p": "This period is described as a 'multi-year opportunity', suggesting a strategic advantage for your clients who are looking to make sustainable investments that yield long-term benefits both financially and ethically. It's an optimal time to engage in thorough due diligence to ensure the sustainability claims of these investment opportunities hold up against scrutiny, thus avoiding greenwashing.",
+            "start_time": 117.9
+          }
+        ],
+        "capitalizing-on-market-shifts-in-2024": [
+          {
+            "p": "Emily, this video provides useful insights on market volatility and risk management that could benefit your environmentally and socially conscious investors. The emphasis on being defensive in economically sensitive areas aligns with your goals to manage risks effectively in ESG investments.",
+            "start_time": 61.7
+          },
+          {
+            "p": "The speaker's point about finding value in high-quality sectors could be particularly relevant for your firm. This approach can be integrated into your strategy to identify ESG investments that not only promise returns but also maintain high ethical standards, helping to avoid greenwashing concerns.",
+            "start_time": 68.14
+          },
+          {
+            "p": "The emphasis on a global perspective and the less synchronized economic and policy cycles across different regions might provide new opportunities for diversifying into international ESG bonds and sustainable investments. This can be particularly compelling given your interest in creating a portfolio that is resilient to regional volatilities while still aligned with ethical values.",
+            "start_time": 173.1
+          },
+          {
+            "p": "Lastly, considering the video's focus on tailoring portfolio strategies to adapt to shifting market conditions, you could use these insights to reinforce your client portfolios against potential downturns through strategic allocation in high-quality, ethical bonds and other ESG-focused assets.",
+            "start_time": 244.26
+          }
+        ]
+      }
+    },
+    "david-lee": {
+      "img": "img/david-lee.webp",
+      "name": "David Lee",
+      "persona": "Tech-Savvy",
+      "age": 42,
+      "background": "Former tech entrepreneur, 5 years in advising",
+      "firm": "Technology-focused investment advisory",
+      "specialties": "Tech stocks, venture capital, cryptocurrency",
+      "clientele": "Young entrepreneurs and tech professionals",
+      "goals": "Identify high-growth opportunities using technology",
+      "challenges": "Keeping up with tech changes and managing high-risk portfolios",
+      "interests": "risk management, volatile markets, fixed income strategies, stable investments, client portfolio reviews, high-net-worth solutions, tax efficiency",
+      "highlights": {
+        "four-economic-themes-to-know-in-2024": [
+          {
+            "p": "David, this video provides valuable insights into the current economic climate that can inform your advisory strategies, especially for clients invested in tech stocks and high-risk portfolios. The detailed analysis of central banks' likely delayed response to changing economic indicators offers a groundwork for adjusting investment approaches amid anticipated market shifts.",
+            "start_time": 23.5
+          },
+          {
+            "p": "Firstly, the projection that central banks may delay interest rate cuts despite nearing the peak of the rate hiking cycle suggests a period of continued high interest rates. This environment can impact tech startups and growth-stage companies typically reliant on financing. For your clients, diversifying into more stable, fixed-income assets might mitigate risks associated with the tech sector's volatility in a high-rate environment.",
+            "start_time": 39.4
+          },
+          {
+            "p": "Secondly, the expected contraction in government spending and tightening monetary policy in 2024 could lead to slower economic growth, particularly impacting sectors sensitive to consumer spending and financing costs, such as technology. You might advise your clients to review their investment in tech companies, focusing on those with strong cash reserves and less debt, which are better positioned to weather economic downturns.",
+            "start_time": 73.24
+          },
+          {
+            "p": "Lastly, the potential for a 'soft landing' of the economy, despite high risks of recession, underscores the importance of being prepared for multiple outcomes. Incorporating risk management strategies, like options for hedging against significant market moves, could protect your clients' investments from unexpected market downturns, aligning with your goal of maximizing returns while managing risks.",
+            "start_time": 218.24
+          }
+        ],
+        "opportunity-in-focus-private-credit": [
+          {
+            "p": "David, this video can help your clientele understand the evolving landscape of private credit markets, especially in the context of technology-driven businesses. With banks retracting from traditional lending, there is a significant shift towards alternative credit sources. This presents a unique opportunity for tech entrepreneurs and professionals who are typically more adaptive to market changes and can capitalize on new financing structures.",
+            "start_time": 8.06
+          },
+          {
+            "p": "The mention of aggressive underwriting trends and the shift in market dynamics post-COVID indicates a higher risk but also higher potential returns in private credit. For your firm, specializing in tech stocks and venture capital, advising clients to explore private credit could diversify their portfolios beyond volatile tech equities and cryptocurrencies, providing a more balanced risk-reward profile.",
+            "start_time": 17.2
+          },
+          {
+            "p": "Given the competitive landscape in private credit, as larger players vie for market share, it's crucial to leverage your tech expertise to identify and understand complex, less-saturated market segments. This approach not only aligns with your goal of managing high-risk portfolios but also ensures that your clients are positioned in areas where there is less competition and potentially higher margins of safety.",
+            "start_time": 66.12
+          },
+          {
+            "p": "Finally, the sustained multi-year opportunity in private credit allows for strategic, patient capital deployment. This aligns well with the interests of your clients who are accustomed to the long-term horizons typical of tech investments. By integrating tech-driven analytics and projections, you can enhance your advisory on when and where to invest, ensuring tax efficiency and optimizing returns for high-net-worth individuals.",
+            "start_time": 113.62
+          }
+        ],
+        "capitalizing-on-market-shifts-in-2024": [
+          {
+            "p": "David, this video can help your clientele understand the nuances of the current market dynamics as discussed by PIMCO. By analyzing the past year's volatility and the forecasted soft landing of the market, you can guide them on how to strategically position their portfolios for potential growth while managing risks.",
+            "start_time": 22.3
+          },
+          {
+            "p": "Given your focus on tech stocks and cryptocurrencies, which are known for their volatility, the concept of being 'defensive in economically sensitive areas' and the opportunities in 'high quality sectors' as highlighted in the video, could be crucial. By identifying and pivoting to high quality bonds and stable fixed income opportunities, you can help your clients stabilize their portfolios amidst the tech market’s rapid changes.",
+            "start_time": 61.7
+          },
+          {
+            "p": "Furthermore, leveraging global bond investments might be a strategic move. As the market conditions have become less synchronized globally, this could lead to diversification benefits for your clients. By applying a global lens to the portfolio construction, you can exploit these less correlated opportunities to hedge against local market volatilities, thereby enhancing the risk-adjusted returns for your tech-focused clientele.",
+            "start_time": 164.66
+          },
+          {
+            "p": "Lastly, your expertise in advising tech professionals could be well-served by the video's emphasis on the importance of patience and long-term valuation perspectives. In the tech sector, where rapid innovations and disruptions are common, maintaining a long-term investment strategy could help mitigate risks associated with high volatility and yield substantial returns over time.",
+            "start_time": 208.48
+          }
+        ]
+      }
+    },
+    "sarah-martinez": {
+      "img": "img/sarah-martinez.webp",
+      "name": "Sarah Martinez",
+      "persona": "Traditionalist",
+      "age": 62,
+      "background": "Economics degree, veteran advisor",
+      "firm": "Large brokerage firm",
+      "specialties": "Blue-chip stocks, government bonds, gold",
+      "clientele": "Conservative investors, family estates",
+      "goals": "Provide reliable advice and maintain long-term relationships",
+      "challenges": "Adapting to new financial products and strategies",
+      "interests": "ESG funds, sustainable investments, impact investing, greenwashing, third-party verification, emerging markets, market stability",
+      "highlights": {
+        "four-economic-themes-to-know-in-2024": [
+          {
+            "p": "Sarah, this video provides crucial insights into the current economic climate, which can help you advise your conservative investors about potential risks and opportunities in the market. Understanding these economic themes will enable you to offer guidance that aligns with their preference for stability and long-term growth.",
+            "start_time": 4.44
+          },
+          {
+            "p": "The discussion about central banks nearing the peak of their rate hiking cycles suggests that the interest rate environment may stabilize, which is beneficial for your clients invested in government bonds. With rates potentially ceasing to rise, bond prices should stabilize, reducing the risk of capital losses and maintaining income stability for your clients.",
+            "start_time": 23.5
+          },
+          {
+            "p": "Given the erosion of real savings due to high inflation and the potential for economic slowdown as mentioned in the video, it's advisable to review the exposure of your clients to blue-chip stocks. These companies are generally well-equipped to handle economic downturns, potentially offering safer equity positions amid market volatility.",
+            "start_time": 56.36
+          },
+          {
+            "p": "The mention of increasing unemployment and the potential for economic stagnation in regions like Europe suggests heightened risks, which may impact global markets. Encouraging a diversification into sustainable investments or ESG funds could be a strategic move. These sectors often demonstrate resilience during economic downturns and could offer both stability and alignment with emerging market trends, appealing to your interest in impact investing.",
+            "start_time": 132.32
+          }
+        ],
+        "opportunity-in-focus-private-credit": [
+          {
+            "p": "Sarah, this video can help your conservative investors understand the shifting landscape of private credit markets. As banks pull back from traditional lending, there's a notable shift towards private credit opportunities. This might not be the usual territory for those invested in blue-chip stocks and government bonds, but it represents a potential area for diversification, especially in light of recent market instabilities.",
+            "start_time": 8.06
+          },
+          {
+            "p": "The transition in the market dynamics, marked by banks' withdrawal and the consequent credit deterioration in certain segments, signals both risk and opportunity. For your clientele, who prioritize stability and long-term returns, focusing on newly created capital opportunities in less trafficked, more complex areas of private credit could be beneficial. These are typically less exposed to the aggressive competition that can erode credit protections.",
+            "start_time": 28.78
+          },
+          {
+            "p": "Moreover, with a multi-year window of opportunity in private credit, as suggested by the video, there's no need to rush into investments. This aligns well with the patient, cautious approach preferred by your clients managing family estates. It’s crucial to keep an eye on this market as it evolves, ensuring any engagements are well-aligned with conservative risk profiles and are subjected to thorough analysis and third-party verification to mitigate potential greenwashing or unstable ventures.",
+            "start_time": 108.34
+          }
+        ],
+        "capitalizing-on-market-shifts-in-2024": [
+          {
+            "p": "Sarah, this video can help your conservative investors understand the current market dynamics and the potential for a soft landing as discussed in the video. With the ongoing geopolitical tensions and economic uncertainties, a defensive stance focusing on high-quality sectors could align well with your strategy to maintain long-term relationships while managing risks effectively.",
+            "start_time": 32.66
+          },
+          {
+            "p": "The emphasis on protecting against tail scenarios by allocating towards high-quality sectors and segments that are currently undervalued due to last year's volatility could be particularly relevant. For your clientele, focusing on government bonds and blue-chip stocks might provide the stability and predictability they value, especially in an environment where high-quality bonds are showing strong predictive value for forward returns.",
+            "start_time": 72.46
+          },
+          {
+            "p": "Furthermore, the discussion on global bond investing and less synchronized economic cycles offers a strategic viewpoint for diversifying portfolios beyond traditional domestic markets. This could be an opportune moment to educate your clients about the potential benefits of including stable, high-quality international bonds, which might offer better yields and risk-adjusted returns compared to more volatile equity markets.",
+            "start_time": 164.66
+          },
+          {
+            "p": "Lastly, the advice for investors to remain patient and diversified aligns with your goal of providing reliable advice. This approach helps safeguard against the market’s unpredictability and aligns with conservative investment strategies, potentially opening discussions on sustainable investments that offer long-term benefits without compromising on stability.",
+            "start_time": 206
+          }
+        ]
+      }
+    }
+  },
+  "prompts": {
+    "interests": "Given this information about a financial advisor, return a JSON object {\"interests\": \"...\"} containing comma-separated keywords they would be interested in when listening to a financial podcast.",
+    "highlights": "Given this video transcript:\n\nTitle: ${title}\n${transcript_with_timing}\n\nWrite a few paragraphs for:\n\n${profile}\n\nExplain the implications for their investors and how they can leverage this information to maximize returns for their clients. Respond as JSON paragraphs with timing.\n\n```json\n[\n{\"p\": \"[firstname], this video can help your [clientele] about ...\",\"start_time\": ...},{\"p\": \"[insight 1]\",\"start_time\": ...},{\"p\": \"[insight 2]\",\"start_time\": ...},{\"p\": \"[insight 3]\",\"start_time\": ...},]"
   }
 }

@@ -11,6 +11,7 @@ let player;
 const $home = document.querySelector("#home");
 const $app = document.querySelector("#app");
 const $transcript = document.querySelector("#transcript");
+const $highlights = document.querySelector("#highlights");
 const config = await fetch("config.json").then((r) => r.json());
 
 let transcriptData;
@@ -34,15 +35,15 @@ const homePage = html`
     </p>
   </div>
 
-  <div class="demos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-    ${Object.entries(config.demos).map(
-      ([key, demo]) => html`
+  <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+    ${Object.entries(config.videos).map(
+      ([key, video]) => html`
         <div class="col py-3">
-          <a class="demo card h-100 text-decoration-none" href="#?${new URLSearchParams({ id: key })}">
+          <a class="video card h-100 text-decoration-none" href="#?${new URLSearchParams({ video: key })}">
             <div class="card-body">
-              <h5 class="card-title">${demo.title}</h5>
+              <h5 class="card-title">${video.title}</h5>
               <p class="card-text">
-                <img class="img-fluid" src="https://img.youtube.com/vi/${demo.youtube}/0.jpg" />
+                <img class="img-fluid" src="https://img.youtube.com/vi/${video.youtube}/0.jpg" />
               </p>
             </div>
           </a>
@@ -55,39 +56,109 @@ const homePage = html`
 const renderSegment = ({ id, start, text, avg_logprob }) =>
   html`<span data-start="${start}" data-id="${id}" data-logprob="${avg_logprob}">${text}</span>`;
 
-async function renderApp(demo) {
-  transcriptData = await fetch(demo.transcript).then((r) => r.json());
+async function renderApp(videoId, advisorId) {
+  const video = config.videos[videoId];
+  transcriptData = await fetch(video.transcript).then((r) => r.json());
 
   // Group segments into paragraphs that end with ?, ! or .
-  const paragraphs = [[]];
+  let paragraphs = [[]];
   for (const segment of transcriptData.segments) {
     paragraphs.at(-1).push(segment);
     if (segment.text.match(/[.?!]\s*$/)) paragraphs.push([]);
   }
+  paragraphs = paragraphs.filter((p) => p.length);
 
   render(
     html`
       <h2 class="my-3">Transcript</h2>
+      <p class="small text-secondary">
+        <i class="bi bi-magic text-primary fs-5"></i> Transcripts with timings are dynamically generated from the video.
+      </p>
       ${paragraphs.map((segments) => html`<p>${segments.map(renderSegment)}</p>`)}
     `,
     $transcript,
   );
-  player.cueVideoById(demo.youtube);
+  player.cueVideoById(video.youtube);
 
   transcriptData.segments.forEach((segment) => {
     segment.element = $transcript.querySelector(`[data-id="${segment.id}"]`);
   });
+
+  if (!(advisorId in config.advisors)) advisorId = Object.keys(config.advisors)[0];
+  const advisor = config.advisors[advisorId];
+
+  render(
+    html`
+      <div class="my-3 d-flex justify-content-between">
+        <h2>Highlights</h2>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            For ${advisor.name}
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            ${Object.entries(config.advisors).map(
+              ([id, advisor]) =>
+                html`<li>
+                  <a
+                    class="dropdown-item d-flex align-items-center ${id == advisorId ? "active" : ""}"
+                    href="#?${new URLSearchParams({ video: videoId, advisor: id })}"
+                  >
+                    <img src="${advisor.img}" class="rounded-circle me-3" height="40" />
+                    <div>
+                      <h5 class="my-0">${advisor.name}</h5>
+                      <div>${advisor.firm}</div>
+                    </div>
+                  </a>
+                </li> `,
+            )}
+          </ul>
+        </div>
+      </h2>
+    </div>
+    <div id="advisor-highlights" class="my-3">
+      <p class="small text-secondary"><i class="bi bi-magic text-primary fs-5"></i> Highlights are dynamically generated from the transcript and the advisor's profile.</p>
+      ${advisor.highlights[videoId].map((chunk) => html`<p>${chunk.p} <a href="#" data-start="${chunk.start_time}">#${chunk.start_time}</a></p>`)}
+    </div>
+    <hr class="my-5">
+    <div id="advisor-profile" class="my-3">
+      <div class="d-flex">
+        <img src="${advisor.img}" class="rounded-circle me-3" height="100" />
+        <div>
+          <h2>${advisor.name}</h2>
+          <h3 class="h5">${advisor.firm}</h3>
+          <p>${advisor.persona} ${advisor.age} year-old. ${advisor.background}</p>
+        </div>
+      </div>
+      <p><strong>Specialties</strong>: ${advisor.specialties}</p>
+      <p><strong>Clientele</strong>: ${advisor.clientele}</p>
+      <p><strong>Goals</strong>: ${advisor.goals}</p>
+      <p><strong>Challenges</strong>: ${advisor.challenges}</p>
+      <p><strong>Interests</strong>: ${advisor.interests}
+        <br><small class="text-secondary"><i class="bi bi-magic text-primary fs-5"></i> Interests are dynamically generated from email, CRM, and web visits</small></p>
+    </div>
+    `,
+    $highlights,
+  );
 }
 
 // When a segment is clicked, jump to that segment in the video
-$transcript.addEventListener("click", (e) => {
+$app.addEventListener("click", (e) => {
   const $segment = e.target.closest("[data-start]");
-  if ($segment) player.seekTo($segment.dataset.start, true);
+  if ($segment) {
+    e.preventDefault();
+    player.seekTo($segment.dataset.start, true);
+    if (player.getPlayerState() != 1) player.playVideo();
+  }
 });
 
 const errorPage = html`
   <div class="alert alert-danger alert-dismissible my-5 text-center" role="alert">
-    <h4 class="alert-heading">Demo not found.</h4>
+    <h4 class="alert-heading">Video not found.</h4>
     <div>Please try another one.</div>
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
@@ -100,22 +171,21 @@ function show(ids) {
 
 async function redraw() {
   const hash = new URLSearchParams(location.hash.slice(1));
-  const id = hash.get("id");
-  const demo = config.demos[id];
-  // TODO: Clear the app, since YouTube API might mess things upp
+  const videoId = hash.get("video");
+  const validVideo = videoId in config.videos;
+  // TODO: Clear the app, since YouTube API might mess things up?
   // Render the home page if no id is provided
-  if (!id) {
+  if (!videoId) {
     show({ home: true, screen: false, app: false });
     render(homePage, $home);
-  }
-  if (id && !demo) {
+  } else if (!validVideo) {
     show({ home: true, screen: false, app: false });
     render([errorPage, homePage], $app);
   }
-  // Render the demo page if id is provided, possibly with an error
-  if (id && demo) {
+  // Render the video page if id is provided, possibly with an error
+  else {
     show({ home: false, screen: true, app: true });
-    await renderApp(demo);
+    await renderApp(videoId, hash.get("advisor"));
   }
 }
 

@@ -14,6 +14,9 @@ const $transcript = document.querySelector("#transcript");
 const $highlights = document.querySelector("#highlights");
 const config = await fetch("config.json").then((r) => r.json());
 
+let currentAdvisorId;
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 let transcriptData;
 
 const homePage = html`
@@ -86,6 +89,7 @@ async function renderApp(videoId, advisorId) {
 
   if (!(advisorId in config.advisors)) advisorId = Object.keys(config.advisors)[0];
   const advisor = config.advisors[advisorId];
+  currentAdvisorId = advisorId;
 
   render(
     html`
@@ -122,7 +126,7 @@ async function renderApp(videoId, advisorId) {
     </div>
     <div id="advisor-highlights" class="my-3">
       <p class="small text-secondary"><i class="bi bi-magic text-primary fs-5"></i> Highlights are dynamically generated from the transcript and the advisor's profile.</p>
-      ${advisor.highlights[videoId].map((chunk) => html`<p>${chunk.p} <a href="#" data-start="${chunk.start_time}">#${chunk.start_time}</a></p>`)}
+      <div id="animated-text"></div>
     </div>
     <hr class="my-5">
     <div id="advisor-profile" class="my-3">
@@ -144,6 +148,22 @@ async function renderApp(videoId, advisorId) {
     `,
     $highlights,
   );
+
+  const chunks = advisor.highlights[videoId];
+  const $animatedText = $highlights.querySelector("#animated-text");
+  const highlights = [];
+  for (let i = 0; i < chunks.length; i++) {
+    for (let j = 0; j < chunks[i].p.length; j += 8) {
+      highlights[i] = html`<p>${chunks[i].p.slice(0, j + 1)}</p>`;
+      render(highlights, $animatedText);
+      await sleep(10);
+      if (currentAdvisorId !== advisorId) return;
+    }
+    highlights[i] = html`<p>
+      ${chunks[i].p} <a href="#" data-start="${chunks[i].start_time}">#${chunks[i].start_time}</a>
+    </p>`;
+    render(highlights, $animatedText);
+  }
 }
 
 // When a segment is clicked, jump to that segment in the video
@@ -218,8 +238,5 @@ function updatePosition() {
   const time = player.getCurrentTime();
   // find the segment that contains this time
   const segment = transcriptData.segments.find((seg) => seg.start <= time && time < seg.end);
-  if (segment) {
-    transcriptData.segments.forEach((seg) => seg.element.classList.toggle("highlight", seg === segment));
-    // segment.element.scrollIntoView({ block: "center" });
-  }
+  if (segment) transcriptData.segments.forEach((seg) => seg.element.classList.toggle("highlight", seg === segment));
 }

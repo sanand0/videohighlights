@@ -27,14 +27,17 @@ const homePage = html`
   <p class="text-center display-6">Personalize transcripts. Highlight actionable insights.</p>
   <div class="mx-auto my-5" style="max-width: 35rem">
     <h2 class="h5">Videos are slow. Transcripts are long.</h2>
-    <q>I don't have the patience to watch the entire videos or read the transcript. I don't even know if it's relevant!</q>
+    <q
+      >I don't have the patience to watch the entire videos or read the transcript. I don't even know if it's
+      relevant!</q
+    >
     <h2 class="h5 mt-3">Each person is different</h2>
     <q>Generic summaries waste my time. Tell me what <strong>I</strong> should know!</q>
-    <hr>
+    <hr />
     <h2 class="h5 mt-3">Automate transcripts & personalize highlights</h2>
-    <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.
+    <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.</p>
     <ul>
-      ${Object.values(config.videos).map(video => html`<li>${video.title}</li>`)}
+      ${Object.values(config.videos).map((video) => html`<li>${video.title}</li>`)}
     </ul>
   </div>
 
@@ -162,7 +165,9 @@ async function renderApp(videoId, advisorId) {
     }
     const m = Math.floor(start_time / 60);
     const s = Math.floor(start_time % 60);
-    highlights[i] = unsafeHTML(marked.parse(p + ` <a href="#${start_time}" class="seek" title="See relevant clip">${m}m ${s}s</a>`));
+    highlights[i] = unsafeHTML(
+      marked.parse(p + ` <a href="#${start_time}" class="seek" title="See relevant clip">${m}m ${s}s</a>`),
+    );
     render(highlights, $animatedText);
   }
 }

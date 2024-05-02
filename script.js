@@ -1,4 +1,4 @@
-/* globals YT */
+/* globals bootstrap, YT */
 
 import { render, html } from "https://cdn.jsdelivr.net/npm/lit-html@3/+esm";
 import { unsafeHTML } from "https://cdn.jsdelivr.net/npm/lit-html@3/directives/unsafe-html.js";
@@ -33,13 +33,59 @@ const homePage = html`
     >
     <h2 class="h5 mt-3">Each person is different</h2>
     <q>Generic summaries waste my time. Tell me what <strong>I</strong> should know!</q>
-    <hr />
-    <h2 class="h5 mt-3">Automate transcripts & personalize highlights</h2>
-    <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.</p>
-    <ul>
-      ${Object.values(config.videos).map((video) => html`<li>${video.title}</li>`)}
-    </ul>
+    <h2 class="h5 mt-3 text-danger">Can marketers personalize video/podcast highlights?</h2>
   </div>
+
+  <hr class="my-5" />
+  <h2 class="h4 text-center mt-5">First, profile the audience</h2>
+  <p>
+    Let's look at ${Object.keys(config.advisors).length} advisors explore videos from
+    <a href="https://www.pimco.com/">PIMCO</a>.
+  </p>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 align-items-stretch">
+  ${Object.entries(config.advisors).map(
+    ([id, advisor]) => html`
+      <div class="col-md mb-3">
+        <div class="card h-100">
+          <img src="${advisor.img}" class="card-img-top" alt="Profile picture of ${advisor.name}" />
+          <div class="card-body">
+            <h5 class="card-title">${advisor.name}</h5>
+            <div class="card-text">
+              <h3 class="h5">${advisor.firm}</h3>
+              <p>${advisor.persona} ${advisor.age} year-old. ${advisor.background}</p>
+              <p><strong>Specialties</strong>: ${advisor.specialties}</p>
+              <p><strong>Clientele</strong>: ${advisor.clientele}</p>
+              <p><strong>Goals</strong>: ${advisor.goals}</p>
+              <p><strong>Challenges</strong>: ${advisor.challenges}</p>
+              <p>
+                <strong>Interests</strong>:
+                ${advisor.interests
+                  .split(/,\s*/)
+                  .map((interest, i) => [
+                    i ? ", " : "",
+                    html`<a
+                      class="text-decoration-none interest"
+                      href="#"
+                      data-advisor="${id}"
+                      data-interest="${interest}"
+                      >${interest}</a
+                    >`,
+                  ])}
+              </p>
+              <p><i class="bi bi-magic text-primary fs-5"></i> Click on interests for supporting interactions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+  )}
+  </div>
+
+  <h2 class="h4 text-center mt-5">Automate transcripts & personalize highlights</h2>
+  <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.</p>
+  <ul>
+    ${Object.values(config.videos).map((video) => html`<li>${video.title}</li>`)}
+  </ul>
 
   <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
     ${Object.entries(config.videos).map(
@@ -57,6 +103,7 @@ const homePage = html`
       `,
     )}
   </div>
+</div>
 `;
 
 const renderSegment = ({ id, start, text, avg_logprob }) =>
@@ -246,3 +293,31 @@ function updatePosition() {
   const segment = transcriptData.segments.find((seg) => seg.start <= time && time < seg.end);
   if (segment) transcriptData.segments.forEach((seg) => seg.element.classList.toggle("highlight", seg === segment));
 }
+
+const $interestModal = document.querySelector("#interest-modal");
+const interestModal = new bootstrap.Modal($interestModal);
+const interests = await fetch("interests.json").then((r) => r.json());
+
+$home.addEventListener("click", (e) => {
+  const interest = e.target.closest(".interest");
+  if (interest) {
+    e.preventDefault();
+    const data = interest.dataset;
+    const advisor = config.advisors[data.advisor];
+    $interestModal.querySelector(".modal-title").textContent = `${advisor.name}: ${data.interest}`;
+    const candidates = interests
+      .filter((row) => row.advisor == advisor.name)
+      .sort((a, b) => b[data.interest] - a[data.interest]);
+    // Get up to 6 reasons with over 50% similarity. Else just the top reasons
+    let reasons = candidates.filter((row) => row[data.interest] > 0.5).slice(0, 8);
+    if (reasons.length == 0) reasons = candidates.slice(0, 1);
+    render(
+      html`<p>Here's how we know ${advisor.name} is interested in ${data.interest}</p>
+        <ol>
+          ${reasons.map(({ key, value }) => html`<li class="my-2"><strong>${key}</strong> ${value}</li>`)}
+        </ol>`,
+      $interestModal.querySelector(".modal-body"),
+    );
+    interestModal.show();
+  }
+});

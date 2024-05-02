@@ -3,6 +3,7 @@
 import { render, html } from "https://cdn.jsdelivr.net/npm/lit-html@3/+esm";
 import { unsafeHTML } from "https://cdn.jsdelivr.net/npm/lit-html@3/directives/unsafe-html.js";
 import { marked } from "https://cdn.jsdelivr.net/npm/marked@12/lib/marked.esm.js";
+import { pc } from "https://cdn.jsdelivr.net/npm/@gramex/ui@0.3/dist/format.js";
 
 const youtubeScript = document.createElement("script");
 youtubeScript.src = "https://www.youtube.com/iframe_api";
@@ -37,11 +38,11 @@ const homePage = html`
   </div>
 
   <hr class="my-5" />
-  <h2 class="h4 text-center mt-5">First, profile the audience</h2>
-  <p>
-    Let's look at ${Object.keys(config.advisors).length} advisors explore videos from
-    <a href="https://www.pimco.com/">PIMCO</a>.
-  </p>
+  <div class="mx-auto my-5" style="max-width: 35rem">
+    <h2>First, extract the audience's interests</h2>
+    <p>Let's look at ${Object.keys(config.advisors).length} (hypothetical) advisors whom <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a> serves.</p>
+    <p>From their email interactions, CRM engagements, and web visits, we <strong>automatically extracted their interests</strong>.</p>
+  </div>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 align-items-stretch">
   ${Object.entries(config.advisors).map(
     ([id, advisor]) => html`
@@ -81,11 +82,10 @@ const homePage = html`
   )}
   </div>
 
-  <h2 class="h4 text-center mt-5">Automate transcripts & personalize highlights</h2>
-  <p>This page takes ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/">PIMCO</a>.</p>
-  <ul>
-    ${Object.values(config.videos).map((video) => html`<li>${video.title}</li>`)}
-  </ul>
+  <div class="mx-auto my-5" style="max-width: 35rem">
+    <h2>Next, we personalize video transcripts</h2>
+    <p>Let's look at these ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a>.</p>
+  </div>
 
   <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
     ${Object.entries(config.videos).map(
@@ -103,6 +103,22 @@ const homePage = html`
       `,
     )}
   </div>
+
+  <div class="mx-auto my-5" style="max-width: 35rem">
+    <p><strong>Click the videos above</strong> to see how we:</p>
+    <ol>
+      <li>Extract the transcript from the video (including the timing)</li>
+      <li>Use an LLM to summarize the transcript <em>for each advisor</em>, suggesting actions for <em>their</em> clients.</li>
+    </ol>
+    <p>Click on the videos to see the personalized summaries. For example, see:</p>
+    <ul>
+      <li><a href="#?video=four-economic-themes-to-know-in-2024&advisor=jane-doe">Four Economic Themes to Know in 2024</a> for Jane Doe</li>
+      <li><a href="#?video=four-economic-themes-to-know-in-2024&advisor=emily-turner">Four Economic Themes to Know in 2024</a> for Emily Turner</li>
+      <li><a href="#?video=capitalizing-on-market-shifts-in-2024&advisor=michael-brown">Capitalizing on Market Shifts in 2024</a> for Michael Brown</li>
+      <li><a href="#?video=capitalizing-on-market-shifts-in-2024&advisor=david-lee">Capitalizing on Market Shifts in 2024</a> for David Lee</li>
+    </ul>
+  </div>
+
 </div>
 `;
 
@@ -314,7 +330,13 @@ $home.addEventListener("click", (e) => {
     render(
       html`<p>Here's how we know ${advisor.name} is interested in ${data.interest}</p>
         <ol>
-          ${reasons.map(({ key, value }) => html`<li class="my-2"><strong>${key}</strong> ${value}</li>`)}
+          ${reasons.map(
+            ({ key, value, ...row }) =>
+              html`<li class="my-2">
+                <strong>${key}</strong> ${value}
+                <small class="text-secondary">(${pc(Math.min(1, row[data.interest] / 0.6))} confidence)</small>
+              </li>`,
+          )}
         </ol>`,
       $interestModal.querySelector(".modal-body"),
     );

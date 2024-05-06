@@ -1,0 +1,96 @@
+url:
+  videohighlights/default:
+    pattern: /$YAMLURL/(.*)
+    priority: -50
+    handler: FileHandler
+    kwargs:
+      path: $YAMLPATH
+      default_filename:
+        - default.template.html
+        - default.tmpl.html
+        - index.html
+      index: true
+      sass: ["*.scss", "*.sass"]
+      ts: ["*.ts"]
+      template:
+        - "*.template.html"
+        - "*.tmpl.html"
+      headers:
+        Cache-Control: private, max-age=60
+      auth:
+        login_url: $YAMLURL/login
+        condition:
+          function: (handler.current_user.get('email') or handler.current_user.get('userPrincipalName') or '').split('@')[-1] in {'gramener.com', 'straive.com', 'learningmate.com', 'pimco.com'}
+        redirect:
+          query: next
+          header: Referer
+          url: /$YAMLURL/
+
+  videohighlights/login:
+    pattern: /$YAMLURL/login
+    handler: EmailAuth
+    kwargs:
+      auth: false
+      service: videohighlights/email
+      from: "Gramener Private Apps <gramex.guide@gmail.com>"
+      subject: "OTP for Gramener Private Apps"
+      body: |
+        The OTP for {user} is {password}
+
+        Visit {link}
+      html: |
+        <p>The OTP for {user} is {password}.</p>
+        <p><a href="{link}">Click here to log in</a></p>
+      template: $YAMLPATH/auth.template.html
+      redirect:
+        query: next
+        header: Referer
+        url: /$YAMLURL/
+
+  videohighlights/login-ms:
+    pattern: /$YAMLURL/login-ms
+    handler: OAuth2
+    kwargs:
+      auth: false
+      client_id: $VIDEOHIGHLIGHTS_AZURE_CLIENT_ID
+      client_secret: $VIDEOHIGHLIGHTS_AZURE_CLIENT_SECRET
+      authorize:
+        url: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+        scope:
+          - https://graph.microsoft.com/User.Read
+        extra_params:
+          prompt: select_account
+      access_token:
+        url: https://login.microsoftonline.com/common/oauth2/v2.0/token
+        body:
+          grant_type: "authorization_code"
+      user_info:
+        url: "https://graph.microsoft.com/v1.0/me"
+        headers:
+          Authorization: "Bearer {access_token}"
+      action:
+        function: >
+          handler.session[handler.session_user_key].update({'email': handler.current_user['userPrincipalName']})
+      redirect:
+        query: next
+        header: Referer
+        url: /$YAMLURL/
+
+  videohighlights/login-google:
+    pattern: /$YAMLURL/login-google
+    handler: GoogleAuth
+    kwargs:
+      # https://console.developers.google.com/apis/credentials as s.anand@gramener.com
+      # Project: gramex-guide > Gramex
+      key: $VIDEOHIGHLIGHTS_GOOGLE_KEY
+      secret: $VIDEOHIGHLIGHTS_GOOGLE_SECRET
+      redirect:
+        query: next
+        header: Referer
+        url: /$YAMLURL/
+
+email:
+  videohighlights/email:
+    type: gmail
+    email: gramex.guide@gmail.com
+    password: tlpmupxnhucitpte

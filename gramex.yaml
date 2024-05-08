@@ -18,7 +18,7 @@ url:
       headers:
         Cache-Control: private, max-age=60
       auth:
-        login_url: $YAMLURL/login
+        login_url: /$YAMLURL/login
         condition:
           function: (handler.current_user.get('email') or handler.current_user.get('userPrincipalName') or '').split('@')[-1] in {'gramener.com', 'straive.com', 'learningmate.com', 'pimco.com'}
         redirect:

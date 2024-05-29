@@ -20,7 +20,7 @@ url:
       auth:
         login_url: /$YAMLURL/login
         condition:
-          function: (handler.current_user.get('email') or handler.current_user.get('userPrincipalName') or '').split('@')[-1] in {'gramener.com', 'straive.com', 'learningmate.com', 'pimco.com'}
+          function: (handler.current_user.get('email') or handler.current_user.get('userPrincipalName') or '').split('@')[-1] in {'gramener.com', 'straive.com', 'learningmate.com', 'pimco.com', 'nb.com'}
         redirect:
           query: next
           header: Referer

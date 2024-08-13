@@ -1,3 +1,6 @@
 *secret*
 *.mp4
+*.mp3
+*.mkv
+*.webm
 node_modules/

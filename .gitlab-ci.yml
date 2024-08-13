@@ -4,15 +4,12 @@ validate:
 
 deploy:
   stage: deploy
-  script:
-    - "secrets 'VIDEOHIGHLIGHTS_*' > .secrets.yaml"
-    - deploy
+  script: deploy
   variables:
-    SERVER: ubuntu@gramener.com
+    SERVER: gramener.com
     URL: videohighlights
-    SETUP: npm install --production
-    VERSION: py3v11
-    PORT: 8050
+    VERSION: static
+    SETUP: npm install --only=production
   environment:
     name: production
     url: https://gramener.com/videohighlights/

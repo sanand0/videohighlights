@@ -47,7 +47,7 @@ const homePage = html`
   <hr class="my-5" />
   <div class="mx-auto my-5" style="max-width: 35rem">
     <h2>First, extract the audience's interests</h2>
-    <p>Let's look at ${Object.keys(config.advisors).length} (hypothetical) advisors whom <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a> serves.</p>
+    <p>Let's look at ${Object.keys(config.advisors).length} (hypothetical) advisors.</p>
     <p>From their email interactions, CRM engagements, and web visits, we <strong>automatically extracted their interests</strong>.</p>
   </div>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 align-items-stretch">
@@ -77,7 +77,10 @@ const homePage = html`
 
   <div class="mx-auto my-5" style="max-width: 35rem">
     <h2>Next, we personalize video transcripts</h2>
-    <p>Let's look at these ${Object.keys(config.videos).length} videos from <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a>.</p>
+    <p>Let's look at these ${Object.keys(config.videos).length} public videos from
+      <a href="https://www.janushenderson.com/" target="_blank" rel="noopener noreferer">Janus Henderson</a> and
+      <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a>.
+    </p>
   </div>
 
   <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">

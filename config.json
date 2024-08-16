@@ -1,16 +1,19 @@
 {
   "videos": {
     "navigating-us-securitized-markets": {
+      "source": "jhi",
       "title": "Navigating U.S. securitized markets",
       "youtube": "3gHvy44oA9I",
       "transcript": "videos/navigating-us-securitized-markets.json"
     },
     "opportunities-in-fixed-income": {
+      "source": "jhi",
       "title": "Opportunities in fixed income",
       "youtube": "1rfN_Q-wdlI",
       "transcript": "videos/opportunities-in-fixed-income.json"
     },
     "four-economic-themes-to-know-in-2024": {
+      "source": "pimco",
       "title": "Four Economic Themes to Know in 2024",
       "url": "https://www.pimco.com/en-sg/resources/video-library/media/four-economic-themes-to-know-in-2024/",
       "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345592658112",
@@ -18,6 +21,7 @@
       "transcript": "videos/four-economic-themes-to-know-in-2024.json"
     },
     "opportunity-in-focus-private-credit": {
+      "source": "pimco",
       "title": "Opportunity in Focus - Private Credit",
       "url": "https://www.pimco.com/en-us/resources/video-library/media/opportunity-in-focus-private-credit",
       "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345592005112",
@@ -25,6 +29,7 @@
       "transcript": "videos/opportunity-in-focus-private-credit.json"
     },
     "capitalizing-on-market-shifts-in-2024": {
+      "source": "pimco",
       "title": "Capitalizing on Market Shifts in 2024",
       "url": "https://www.pimco.com/en-us/resources/video-library/media/capitalizing-on-market-shifts-in-2024",
       "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345591871112",

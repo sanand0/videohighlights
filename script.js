@@ -17,6 +17,13 @@ const $transcript = document.querySelector("#transcript");
 const $highlights = document.querySelector("#highlights");
 const config = await fetch("config.json").then((r) => r.json());
 
+// Filter videos. #jhi filters for source="jhi", etc.
+const filter = location.hash.slice(1);
+let videos = filter
+  ? Object.fromEntries(Object.entries(config.videos).filter(([, video]) => video.source == filter))
+  : config.videos;
+if (!Object.keys(videos).length) videos = config.videos;
+
 let currentAdvisorId;
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -77,14 +84,11 @@ const homePage = html`
 
   <div class="mx-auto my-5" style="max-width: 35rem">
     <h2>Next, we personalize video transcripts</h2>
-    <p>Let's look at these ${Object.keys(config.videos).length} public videos from
-      <a href="https://www.janushenderson.com/" target="_blank" rel="noopener noreferer">Janus Henderson</a> and
-      <a href="https://www.pimco.com/" target="_blank" rel="noopener noreferer">PIMCO</a>.
-    </p>
+    <p>Let's look at these ${Object.keys(videos).length} public videos from that provide information to financial services advisors.</p>
   </div>
 
   <div class="videos row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-    ${Object.entries(config.videos).map(
+    ${Object.entries(videos).map(
       ([key, video]) => html`
         <div class="col py-3">
           <a class="video card h-100 text-decoration-none" href="#?${new URLSearchParams({ video: key })}">

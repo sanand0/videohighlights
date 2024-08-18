@@ -11,8 +11,13 @@
     .highlight {
       background-color: rgba(255, 255, 0, 0.2);
     }
+
     .interest {
       text-decoration: none;
+    }
+
+    .narrative {
+      max-width: 35rem;
     }
   </style>
 </head>
@@ -58,6 +63,32 @@
       <div class="col-md-6" id="highlights"></div>
       <div class="col-md-6" id="transcript"></div>
     </div>
+  </div>
+  <div class="mx-auto my-5 narrative">
+    <h2 class="h3">How does it work?</h2>
+    <p>We <strong>extract</strong> user interests from digital exhaust (CRM entries, web logs, and emails) using <strong>embeddings</strong> -- a low-cost way of using LLMs.
+      We use this to name the interests using the prompt <q class="fst-italic">Given this information about a financial advisor, return a JSON object {\"interests\": \"...\"} containing comma-separated keywords they would be interested in when listening to a financial podcast.</q></p>
+    <p>We <strong>transcribe</strong> audio files using the open-source <a href="https://github.com/openai/whisper">Whisper</a> model. It's great at stripping out "uh...", "um...", etc. and creating a cohesive transcript.</p>
+    <p>We don't <strong>diarize</strong> the transcript to add speaker names, but using <a href="https://www.anthropic.com/news/claude-3-haiku">Anthropic's Claude 3 Haiku</a>,
+      a <a href="https://gramener.com/llmpricing/">frontier model</a>, we can do this with a simple prompt:
+      <q class="fst-italic">Label this call transcript between an agent and caller based on context</q>.
+    </p>
+    <p>We create <strong>structured summaries</strong> using the prompt:
+      <q class="fst-italic">Given this video transcript: Title: ${title}. Transcript: ${transcript_with_timing}. Write a few paragraphs for: ${profile}. Explain the implications for their investors and how they can leverage this information to maximize returns for their clients. Respond as JSON paragraphs with timing.</q>
+    </p>
+    <p><a href="https://github.com/gramener/videohighlights/">See code</a></p>
+
+    <h2 class="h3">How long does it take?</h2>
+    <p>The entire analysis for a 20 minute video takes <strong>under half a minute</strong>.</p>
+
+    <h2 class="h3">How much does it cost?</h2>
+    <p>For Whisper on OpenAI with Claude 3 Haiku, the typical cost of a 20-minute video personalized for 6 advisors is <strong>under 30 cents</strong>, and grows at about 3 cents per advisor.</p>
+
+    <h2 class="h3">Can this run privately?</h2>
+    <p><strong>Yes</strong>. With open-weight models like <a href="https://github.com/openai/whisper">Whisper</a> and <a href="https://llama.meta.com/llama3/">LLama-3</a>, you can run this in your data center (or even your gaming laptop).</p>
+
+    <h2 class="h3">How is this priced?</h2>
+    <p>This is not a product. It's a demo. Email <a href="mailto:s.anand@gramener.com">s.anand@gramener.com</a> for details.</p>
   </div>
 
   <footer class="my-5 vh-100 d-flex align-items-center justify-content-center">

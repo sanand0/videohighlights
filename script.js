@@ -40,7 +40,7 @@ const homePage = html`
   <h1 class="display-1 my-5 text-center">Video Highlights</h1>
 
   <p class="text-center display-6">Personalize transcripts. Highlight actionable insights.</p>
-  <div class="mx-auto my-5" style="max-width: 35rem">
+  <div class="mx-auto my-5 narrative">
     <h2 class="h5">Videos are slow. Transcripts are long.</h2>
     <q
       >I don't have the patience to watch the entire videos or read the transcript. I don't even know if it's
@@ -52,7 +52,7 @@ const homePage = html`
   </div>
 
   <hr class="my-5" />
-  <div class="mx-auto my-5" style="max-width: 35rem">
+  <div class="mx-auto my-5 narrative">
     <h2>First, extract the audience's interests</h2>
     <p>Let's look at ${Object.keys(config.advisors).length} (hypothetical) advisors.</p>
     <p>From their email interactions, CRM engagements, and web visits, we <strong>automatically extracted their interests</strong>.</p>
@@ -82,7 +82,7 @@ const homePage = html`
   )}
   </div>
 
-  <div class="mx-auto my-5" style="max-width: 35rem">
+  <div class="mx-auto my-5 narrative">
     <h2>Next, we personalize video transcripts</h2>
     <p>Let's look at these ${Object.keys(videos).length} public videos from that provide information to financial services advisors.</p>
   </div>
@@ -104,7 +104,7 @@ const homePage = html`
     )}
   </div>
 
-  <div class="mx-auto my-5" style="max-width: 35rem">
+  <div class="mx-auto my-5 narrative">
     <p><strong>Click the videos above</strong> to see how we:</p>
     <ol>
       <li>Extract the transcript from the video (including the timing)</li>

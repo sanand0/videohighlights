@@ -35,6 +35,36 @@
       "video": "http://players.brightcove.net/3895904614001/f523f324-9b15-4abd-90e9-35e8f4ab2700_default/index.html?videoId=6345591871112",
       "youtube": "3jz5LDR8FTo",
       "transcript": "videos/capitalizing-on-market-shifts-in-2024.json"
+    },
+    "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": {
+      "source": "pgim",
+      "title": "Demand for multi-asset solutions soaring, says PGIM strategist",
+      "youtube": "ePY4mf4BXvM",
+      "transcript": "videos/demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM.json"
+    },
+    "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": {
+      "source": "pgim",
+      "title": "Matt DOUGLASS, CEO & Senior Managing Director, PGIM PRIVATE CAPITAL",
+      "youtube": "OwYEaJH1un8",
+      "transcript": "videos/matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8.json"
+    },
+    "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": {
+      "source": "pgim",
+      "title": "PGIM CEO David Hunt - Geopolitical Risks Driving Investment Decisions",
+      "youtube": "FXxfW_fA5HU",
+      "transcript": "videos/pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU.json"
+    },
+    "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": {
+      "source": "pgim",
+      "title": "PGIM's Hunt Says Private Credit Is Growing Quickly",
+      "youtube": "4PYvOKpE4C0",
+      "transcript": "videos/pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0.json"
+    },
+    "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": {
+      "source": "pgim",
+      "title": "What to Expect for Real Estate Credit Markets in 2025",
+      "youtube": "_cKcEbJy24A",
+      "transcript": "videos/what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A.json"
     }
   },
   "advisors": {
@@ -135,6 +165,76 @@
           {
             "p": "Lastly, the emphasis on global bond investing and the **less synchronized cycles in the real economy** and central banks might be particularly compelling. This could be a great opportunity to discuss how international funds and diversification can help mitigate risks and exploit alpha-generating opportunities. It would be wise to consider this in your portfolio adjustments to cater to your clientele's needs for high-performing investments.",
             "start_time": 164.66
+          }
+        ],
+        "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": [
+          {
+            "p": "Jane, this conversation highlights why clients want more capabilities from fewer managers and how the blurring between public and private credit can open growth paths for your young professionals via diversified, multi-asset sleeves.",
+            "start_time": 25.1
+          },
+          {
+            "p": "High net worth and pension demand for semi-liquid structures suggests room for opportunistic allocations across public and private credit while retaining access. You can use these structures to fund high-conviction themes without overcommitting liquidity.",
+            "start_time": 73.4
+          },
+          {
+            "p": "Scale, origination depth, and underwriting rigor matter for alpha. Partnering with managers that can originate, underwrite, and work out complex deals expands your opportunity set and helps capture mispricing across credit markets.",
+            "start_time": 156.9
+          }
+        ],
+        "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": [
+          {
+            "p": "Investors increasingly view the world as a single credit spectrum across public and private markets. Dialing illiquidity for potential return lets you build a clear path from liquid to complex sleeves tailored to client risk budgets.",
+            "start_time": 172.8
+          },
+          {
+            "p": "Multi-sleeve mandates that combine private and public credit in one strategy reduce operational friction and let you rotate quickly into relative value. That flexibility is useful when pursuing high-performing ideas.",
+            "start_time": 248.6
+          },
+          {
+            "p": "Winning in private credit needs a wide origination funnel, strong underwriting, and active workout capabilities. Favor platforms with global sourcing and deep research so you can scale positions when conviction is high.",
+            "start_time": 371.6
+          }
+        ],
+        "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": [
+          {
+            "p": "Volatility is not the same as risk. Use volatility as an entry point, but ensure sufficient liquidity so clients can add risk in size when pricing dislocates.",
+            "start_time": 129.3
+          },
+          {
+            "p": "Capital is rotating: less to Europe and China, more to the U.S. and Japan, with select EM like Mexico, Vietnam, and Indonesia benefiting from supply-chain shifts. Tilt growth exposures accordingly.",
+            "start_time": 315.1
+          },
+          {
+            "p": "Maintain liquidity to act. With more assets in illiquid sleeves, keep dry powder and semi-liquid exposure so you can move when the timing is right.",
+            "start_time": 160.2
+          }
+        ],
+        "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": [
+          {
+            "p": "Private credit growth reflects a secular financing shift as banks pull back and institutions step in. Blending private credit with public credit can enhance diversification and return potential.",
+            "start_time": 63.0
+          },
+          {
+            "p": "When the Fed tops out, expect a large shift back into public fixed income. Plan to rebalance toward high-quality bonds while maintaining core private credit themes.",
+            "start_time": 277.3
+          },
+          {
+            "p": "Private markets can offer more persistent alpha and different cycles than public equities. Consider a barbell of high-quality public fixed income and targeted private credit to manage risk while pursuing upside.",
+            "start_time": 310.2
+          }
+        ],
+        "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": [
+          {
+            "p": "If the 10-year stays in the 4s, 2025 should be very active with a refinancing wave. That backdrop can create idiosyncratic opportunities across real estate credit.",
+            "start_time": 49.5
+          },
+          {
+            "p": "Focus where secular demand is strongest: living, industrial, self-storage, and data centers. These align with demographic and digital trends supportive of growth.",
+            "start_time": 95.5
+          },
+          {
+            "p": "This cycle is about income, not leverage-driven appreciation. Use income-oriented CRE credit to diversify equity-heavy portfolios while keeping return targets in sight.",
+            "start_time": 390.9
           }
         ]
       }
@@ -241,6 +341,76 @@
             "p": "Lastly, the global bond market's revival, as outlined at 164.66 seconds, provides a **promising avenue for diversification and yield enhancement**. This could be instrumental for your clientele, offering a way to improve returns while maintaining a conservative risk profile, especially valuable in a landscape still marked by considerable uncertainty and volatility.",
             "start_time": 164.66
           }
+        ],
+        "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": [
+          {
+            "p": "Liquidity is the art here: align assets and liabilities, and match cash flows so clients can meet near-term needs while earning prudent carry across public and private credit.",
+            "start_time": 119.7
+          },
+          {
+            "p": "Favor managers with scale and underwriting depth who can originate and structure conservative deals. That improves credit selection and downside protection for wealth preservation mandates.",
+            "start_time": 184.8
+          },
+          {
+            "p": "Private credit is still early in its growth arc. Stage allocations gradually and prefer semi-liquid or shorter-duration sleeves to keep flexibility for retirees.",
+            "start_time": 223.1
+          }
+        ],
+        "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": [
+          {
+            "p": "Think in terms of a credit spectrum and dial illiquidity down for clients with near-term liabilities. Partial-illiquidity sleeves can still enhance yield without locking up capital.",
+            "start_time": 184.6
+          },
+          {
+            "p": "Multi-sleeve mandates reduce operational complexity and allow one platform to manage across liquid and private credit with scale benefits, cost efficiency, and consistent risk controls.",
+            "start_time": 248.6
+          },
+          {
+            "p": "Prefer managers that originate broadly, underwrite conservatively, and manage workouts in-house. Those capabilities matter most when markets turn and help protect principal.",
+            "start_time": 371.6
+          }
+        ],
+        "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": [
+          {
+            "p": "Long-term investors see volatility as an opportunity, not a loss. Maintain discipline and use moves to upgrade quality while avoiding forced selling.",
+            "start_time": 146.1
+          },
+          {
+            "p": "Geographic rotations favor the U.S. and Japan over Europe and China. For conservative clients, bias toward high-quality U.S. and select Japan exposure can improve resilience.",
+            "start_time": 322.1
+          },
+          {
+            "p": "Ensure ample liquidity so you can add to quality when markets dislocate. Avoid over-allocating to illiquid strategies that limit rebalancing.",
+            "start_time": 160.2
+          }
+        ],
+        "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": [
+          {
+            "p": "When the Fed is clearly at the peak, expect flows back into public fixed income. Prepare to extend duration modestly and lock attractive yields as conditions allow.",
+            "start_time": 277.3
+          },
+          {
+            "p": "Private credit’s growth is broad-based (real estate debt, infrastructure, specialized credit). For low-risk profiles, favor senior secured and high-quality sponsors.",
+            "start_time": 39.7
+          },
+          {
+            "p": "Private markets diversify public equity risk by running on different cycles. Keep core bond exposure as ballast and use measured private credit sleeves for incremental income.",
+            "start_time": 338.9
+          }
+        ],
+        "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": [
+          {
+            "p": "A 10-year in the 4s supports more transactions and refinancing. Laddering real estate credit can capture income without reaching for risk.",
+            "start_time": 55.4
+          },
+          {
+            "p": "Focus on resilient segments: living and logistics remain structurally supported. Favor strong sponsors, moderate leverage, and robust covenants.",
+            "start_time": 195.5
+          },
+          {
+            "p": "This cycle is income-led. Use high-quality, income-oriented CRE credit to provide steady cash flows aligned with retirement objectives.",
+            "start_time": 390.9
+          }
         ]
       }
     },
@@ -345,6 +515,76 @@
           {
             "p": "Lastly, considering the video's focus on tailoring portfolio strategies to adapt to shifting market conditions, you could use these insights to **reinforce your client portfolios against potential downturns** through strategic allocation in high-quality, ethical bonds and other ESG-focused assets.",
             "start_time": 244.26
+          }
+        ],
+        "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": [
+          {
+            "p": "Multi-asset solutions are blurring public and private credit, with semi-liquid structures increasingly used by insurers, pensions, and HNW. Use these frameworks to express ESG screens across sleeves.",
+            "start_time": 73.4
+          },
+          {
+            "p": "Getting liquidity right is crucial. Align cash flows and asset-liability fit so sustainable allocations don’t become gated during stress.",
+            "start_time": 119.7
+          },
+          {
+            "p": "Scale, origination depth, and underwriting are essential to avoid greenwashing. Prioritize managers with the capability to source, diligence, and manage ESG-aligned private credits end-to-end.",
+            "start_time": 184.7
+          }
+        ],
+        "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": [
+          {
+            "p": "Convergence across public and private credit lets you dial illiquidity and complexity while applying ESG criteria consistently across the spectrum.",
+            "start_time": 184.6
+          },
+          {
+            "p": "Multi-sleeve mandates can combine sustainability-linked loans, green bonds, and liquid credit in one program, making stewardship and reporting simpler.",
+            "start_time": 248.6
+          },
+          {
+            "p": "Global origination with regional teams provides a pipeline to finance sustainable infrastructure and housing, supported by deep research and active monitoring.",
+            "start_time": 406.8
+          }
+        ],
+        "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": [
+          {
+            "p": "Volatility can create entry points for impact. Maintain liquidity to fund sustainable projects when spreads widen, rather than conflating volatility with risk.",
+            "start_time": 129.3
+          },
+          {
+            "p": "Geographic rotation favors the U.S. and Japan with select EM like Mexico, Vietnam, and Indonesia benefiting from supply chain shifts—areas with scalable sustainable infrastructure needs.",
+            "start_time": 325.1
+          },
+          {
+            "p": "Be cautious on regions with stagnation or policy uncertainty. Balance allocations to resilient markets while pursuing measurable ESG outcomes.",
+            "start_time": 206.0
+          }
+        ],
+        "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": [
+          {
+            "p": "Private credit’s secular growth, including real estate debt and infrastructure, aligns with financing the transition economy. Use clear ESG KPIs to ensure integrity.",
+            "start_time": 39.7
+          },
+          {
+            "p": "As the Fed peaks, prepare to add public fixed income—especially green and sustainability-linked bonds—while maintaining targeted private exposures.",
+            "start_time": 277.3
+          },
+          {
+            "p": "Expect greater strategy variety across alternatives. Use this breadth to tailor ESG mandates without sacrificing diversification.",
+            "start_time": 113.6
+          }
+        ],
+        "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": [
+          {
+            "p": "Housing remains structurally undersupplied; mission-natural affordability and agency programs can channel capital to responsible housing solutions.",
+            "start_time": 195.5
+          },
+          {
+            "p": "Data centers and logistics support the digital and low-carbon economy. Underwrite energy efficiency and community impact in these allocations.",
+            "start_time": 95.5
+          },
+          {
+            "p": "With an income-led cycle, prioritize durable cash flows and transparent ESG reporting to demonstrate both impact and risk-adjusted return.",
+            "start_time": 390.9
           }
         ]
       }
@@ -451,6 +691,76 @@
             "p": "Lastly, your expertise in advising tech professionals could be well-served by the video's emphasis on the importance of patience and long-term valuation perspectives. In the tech sector, where rapid innovations and disruptions are common, maintaining a long-term investment strategy could help mitigate risks associated with high volatility and yield substantial returns over time.",
             "start_time": 208.48
           }
+        ],
+        "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": [
+          {
+            "p": "The public–private credit blur unlocks multi-asset sleeves that can be engineered for growth and liquidity. Tech clients can appreciate the platform-like scalability here.",
+            "start_time": 30.9
+          },
+          {
+            "p": "Semi-liquid structures and customized solutions for HNW allow targeted risk while retaining access—useful for founders with uneven cash flows.",
+            "start_time": 73.4
+          },
+          {
+            "p": "Winning requires scale, origination depth, and tech-enabled underwriting and workout capabilities. Favor data-rich platforms that can price complexity precisely.",
+            "start_time": 184.7
+          }
+        ],
+        "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": [
+          {
+            "p": "Issuers now toggle among high-yield, BSL, and private credit; relative value shifts quickly. A quant- and data-driven lens helps decide which route to fund growth.",
+            "start_time": 324.3
+          },
+          {
+            "p": "Multi-sleeve strategies combine liquid and private credit, delivering economies of scale and faster rotation when market microstructure changes.",
+            "start_time": 248.6
+          },
+          {
+            "p": "Edge comes from broad origination, deep research, and live public–private relative value. Use platforms that see both sides to time entries.",
+            "start_time": 466.6
+          }
+        ],
+        "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": [
+          {
+            "p": "Keep liquidity to act when volatility creates mispricing. Build a buffer so you can add risk in size when spreads widen.",
+            "start_time": 160.2
+          },
+          {
+            "p": "Capital flows favor the U.S. and Japan, while select EM like Mexico, Vietnam, and Indonesia benefit from supply-chain realignment—relevant for semis and AI ecosystems.",
+            "start_time": 325.1
+          },
+          {
+            "p": "Treat volatility as signal, not noise. Long-term investors use it to buy quality assets at better prices.",
+            "start_time": 146.1
+          }
+        ],
+        "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": [
+          {
+            "p": "Banks have stepped back; asset managers architect private credit across real estate debt, infrastructure, and specialized lending. This is a secular shift, not a fad.",
+            "start_time": 63.0
+          },
+          {
+            "p": "New platforms (e.g., reinsurance partnerships) broaden product design. Expect more ways to express views via private markets.",
+            "start_time": 171.8
+          },
+          {
+            "p": "Private markets can deliver alpha where many public equity managers struggle net of fees. Use privates as a core complement to growth tech bets.",
+            "start_time": 317.8
+          }
+        ],
+        "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": [
+          {
+            "p": "Data centers and logistics are structural winners inside real estate, benefiting from cloud and AI demand. Target high-quality sponsors and resilient markets.",
+            "start_time": 95.5
+          },
+          {
+            "p": "Banks, CMBS, and private credit form an ecosystem, not a substitution. Partnering across it can improve execution and deal flow.",
+            "start_time": 155.6
+          },
+          {
+            "p": "The next cycle is income-led. Blend income-oriented CRE credit with growth equity to smooth portfolio volatility.",
+            "start_time": 390.9
+          }
         ]
       }
     },
@@ -551,6 +861,76 @@
           {
             "p": "Lastly, the advice for investors to remain patient and diversified aligns with your goal of providing reliable advice. This approach helps safeguard against the market’s unpredictability and aligns with conservative investment strategies, potentially opening discussions on sustainable investments that offer long-term benefits without compromising on stability.",
             "start_time": 206
+          }
+        ],
+        "demand-for-multi-asset-solutions-soaring-says-PGIM-strategist-ePY4mf4BXvM": [
+          {
+            "p": "Prioritize liquidity and asset–liability fit. Match cash flows and avoid overcommitting to illiquid sleeves, keeping portfolios predictable for family estates.",
+            "start_time": 134.6
+          },
+          {
+            "p": "Semi-liquid structures can offer incremental yield with access—use them carefully alongside high-quality public credit as the core.",
+            "start_time": 73.4
+          },
+          {
+            "p": "Private credit’s growth is early; take a measured, stepwise approach with strong managers and conservative underwriting standards.",
+            "start_time": 223.1
+          }
+        ],
+        "matt-douglass-ceo-senior-managing-director-pgim-private-capital-OwYEaJH1un8": [
+          {
+            "p": "Think in terms of an illiquidity spectrum. Favor the more liquid end for near-term liabilities, using partial-illiquidity where appropriate.",
+            "start_time": 184.6
+          },
+          {
+            "p": "Single-manager, multi-sleeve solutions reduce operational burden and standardize risk controls across public and private credit.",
+            "start_time": 248.6
+          },
+          {
+            "p": "Select managers with broad origination and robust workout capabilities—critical to safeguarding capital through credit cycles.",
+            "start_time": 371.6
+          }
+        ],
+        "pgim-ceo-david-hunt-geopolitical-risks-driving-investment-decisions-FXxfW_fA5HU": [
+          {
+            "p": "Volatility is not loss. Maintain a steady long-term stance and use bouts of volatility to upgrade portfolio quality.",
+            "start_time": 123.2
+          },
+          {
+            "p": "Shift geographic exposure toward more resilient markets (U.S., Japan) and away from weak growth regions, keeping risk budgets conservative.",
+            "start_time": 322.1
+          },
+          {
+            "p": "Keep sufficient liquidity so you can rebalance rather than be a forced seller during shocks.",
+            "start_time": 160.2
+          }
+        ],
+        "pgim-s-hunt-says-private-credit-is-growing-quickly-4PYvOKpE4C0": [
+          {
+            "p": "Expect a pivot back to public fixed income as rate cuts approach. Extend duration thoughtfully to lock income for conservative mandates.",
+            "start_time": 277.3
+          },
+          {
+            "p": "Use higher-quality private credit exposures (e.g., real estate debt, infrastructure credit) to diversify income without stretching risk.",
+            "start_time": 39.7
+          },
+          {
+            "p": "Do not assume rapid rate cuts. Stay patient and prioritize quality while maintaining diversification.",
+            "start_time": 376.2
+          }
+        ],
+        "what-to-expect-for-real-estate-credit-markets-in-2025-_cKcEbJy24A": [
+          {
+            "p": "A 10-year in the 4s supports a healthy transaction market and refinancing. Participate with sensible structures and strong covenants.",
+            "start_time": 49.5
+          },
+          {
+            "p": "Favor living and logistics; the U.S. remains an outperformer attracting global capital. Emphasize sponsor quality and prudent leverage.",
+            "start_time": 267.2
+          },
+          {
+            "p": "This is an income-led cycle. For conservative clients, stable CRE credit cash flows complement government bonds as a durable income anchor.",
+            "start_time": 390.9
           }
         ]
       }

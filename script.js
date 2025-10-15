@@ -37,7 +37,7 @@ const renderInterests = (advisorId, interests) =>
       html`<a class="interest" href="#" data-advisor="${advisorId}" data-interest="${interest}">${interest}</a>`,
     ]);
 const homePage = html`
-  <h1 class="display-1 my-5 text-center">Video Highlights</h1>
+  <h1 class="display-1 my-5 text-center">Hyper-personalized Marketing</h1>
 
   <p class="text-center display-6">Personalize transcripts. Highlight actionable insights.</p>
   <div class="mx-auto my-5 narrative">
